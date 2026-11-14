@@ -2,6 +2,7 @@ package com.educore.user.model;
 
 import java.util.List;
 import java.util.Collections;
+import com.educore.user.util.Validator;
 
 public class StudentProfile {
 	private final String className;
@@ -11,7 +12,13 @@ public class StudentProfile {
 	private final String dateOfBirth;
 
 	//constructor is package-private
-	StudentProfile(String className, String parentContact, List<String> subjects, String address, String dateOfBirth){ 
+	StudentProfile(String className, String parentContact, List<String> subjects, String address, String dateOfBirth){
+		Validator.requireNonBlank(className, "Class name");
+		Validator.requirePhone(parentContact);
+		Validator.requireNonBlank(address, "Address");
+		if(dateOfBirth == null || dateOfBirth.isBlank()){
+			throw new IllegalArgumentException("Date of birth cannot be null.");
+		}
 		this.className = className;
 		this.parentContact = parentContact;
 		this.subjects = subjects != null ? List.copyOf(subjects) : Collections.emptyList();

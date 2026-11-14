@@ -21,7 +21,7 @@ public class StudentProfileBuilder {
 		return this;
 	}
 	public StudentProfileBuilder subjects(List<String> subjects){
-		this.subjects = this.subjects != null ? new ArrayList<>(subjects) : new ArrayList<>();
+		this.subjects = subjects != null ? new ArrayList<>(subjects) : new ArrayList<>();
 		return this;
 	}
 	public StudentProfileBuilder addSubject(String subject){
@@ -45,6 +45,6 @@ public class StudentProfileBuilder {
 			Validator.requirePhone(parentContact);
 		}
 
-		return new StudentProfile(className, parentContact, subjects, address, dateOfBirth)
+		return new StudentProfile(className, parentContact, subjects, address, dateOfBirth);
 	}
 }

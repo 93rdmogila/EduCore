@@ -8,7 +8,7 @@ public class UserAccount {
 	private final String passwordHash;
 	private final UserRole role;
 
-	public UserAccount(String userId, String email, String passwordHash, String role){
+	public UserAccount(String userId, String email, String passwordHash, UserRole role){
 		Validator.requireNonBlank(userId, "User id");
 		Validator.requireEmail(email);
 		Validator.requireNonBlank(passwordHash, "Password hash");
@@ -19,7 +19,7 @@ public class UserAccount {
 		this.userId = userId;
 		this.email = email;
 		this.passwordHash = passwordHash;
-		this.role = role;
+		this.role = role
 	}
 
 	public String getUserId(){
@@ -31,7 +31,7 @@ public class UserAccount {
 	public String getPasswordHash(){
 		return passwordHash;
 	}
-	public String getRole(){
+	public UserRole getRole(){
 		return role;
 	}
 }

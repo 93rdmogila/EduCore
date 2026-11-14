@@ -1,11 +1,18 @@
 package com.educore.user.model;
 
+import com.educore.user.util.Validator;
+
 public class Teacher implements User{
 	private final String id;
 	private final String name;
-	private final String specialization;
+	private final TeacherSpecialization specialization;
 
-	public Teacher(String id, String name, String specialization){
+	public Teacher(String id, String name, TeacherSpecialization specialization){
+		Validator.requireNonBlank(id, "Id");
+		Validator.requireNonBlank(name, "Name");
+		if(specialization == null){
+			throw new IllegalArgumentException("Teacher specialization cannot be null.");
+		}
 		this.id = id;
 		this.name = name;
 		this.specialization = specialization;
@@ -19,7 +26,7 @@ public class Teacher implements User{
 	public String getName(){
 		return name;
 	}
-	public String getSpecialization(){
+	public TeacherSpecialization getSpecialization(){
 		return specialization;
 	}
 }
