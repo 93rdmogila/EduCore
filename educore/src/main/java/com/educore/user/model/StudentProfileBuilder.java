@@ -40,10 +40,7 @@ public class StudentProfileBuilder {
 
 	public StudentProfile build(){
 		Validator.requireNonBlank(className, "Class name");
-
-		if(parentContact != null && !parentContact.isBlank()){
-			Validator.requirePhone(parentContact);
-		}
+		Validator.requirePhone(parentContact);
 
 		return new StudentProfile(className, parentContact, subjects, address, dateOfBirth);
 	}

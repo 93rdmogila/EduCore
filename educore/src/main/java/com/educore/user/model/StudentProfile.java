@@ -15,9 +15,11 @@ public class StudentProfile {
 	StudentProfile(String className, String parentContact, List<String> subjects, String address, String dateOfBirth){
 		Validator.requireNonBlank(className, "Class name");
 		Validator.requirePhone(parentContact);
-		Validator.requireNonBlank(address, "Address");
-		if(dateOfBirth == null || dateOfBirth.isBlank()){
-			throw new IllegalArgumentException("Date of birth cannot be null.");
+		if(address != null && address.isBlank()){
+			throw new IllegalArgumentException("Address cannot be blank.");
+		}
+		if(dateOfBirth != null && dateOfBirth.isBlank()){
+			throw new IllegalArgumentException("Date of birth cannot be blank.");
 		}
 		this.className = className;
 		this.parentContact = parentContact;

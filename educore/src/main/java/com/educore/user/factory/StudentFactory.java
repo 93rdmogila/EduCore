@@ -19,14 +19,13 @@ public class StudentFactory implements UserFactory{
 								String address, String dateOfBirth){
 		Validator.requireNonBlank(id, "Id");
 		Validator.requireNonBlank(name, "Name");
-		StudentProfileBuilder profileBuilder = new StudentProfileBuilder().className(className)
+		StudentProfile profile = new StudentProfileBuilder().className(className)
 															.parentContact(parentContact)
+															.subjects(subjects)
 															.address(address)
-															.dateOfBirth(dateOfBirth);
-		for(String subject : subjects){
-			profileBuilder.addSubject(subject);
-		}
-		return new Student(id, name, profileBuilder.build());
+															.dateOfBirth(dateOfBirth)
+															.build();
+		return new Student(id, name, profile);
 	}
 
 	@Override 

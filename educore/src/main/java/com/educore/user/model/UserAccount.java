@@ -19,7 +19,7 @@ public class UserAccount {
 		this.userId = userId;
 		this.email = email;
 		this.passwordHash = passwordHash;
-		this.role = role
+		this.role = role;
 	}
 
 	public String getUserId(){
