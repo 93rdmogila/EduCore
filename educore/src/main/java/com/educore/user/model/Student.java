@@ -1,9 +1,9 @@
 package com.educore.user.model;
 
 public class Student implements User{
-	private String id;
-	private String name;
-	private StudentProfile profile;
+	private final String id;
+	private final String name;
+	private final StudentProfile profile;
 
 	public Student(String id, String name, StudentProfile profile){
 		this.id = id;
@@ -16,10 +16,10 @@ public class Student implements User{
 		return id;
 	}
 	@Override 
-	public String gettName(){
+	public String getName(){
 		return name;
 	}
-	public StudentProfile getstudentProfile(){
+	public StudentProfile getStudentProfile(){
 		return profile;
 	}
 }

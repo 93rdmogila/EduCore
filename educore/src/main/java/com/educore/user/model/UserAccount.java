@@ -1,18 +1,30 @@
 package com.educore.user.model;
 
+import com.educore.user.util.Validator;
+import java.util.regex.Pattern;
+
 public class UserAccount {
-	private String userId;
-	private String email;
-	private String passwordHash;
-	private String role;
+	private static final Pattern EMAIL_PATTERN = Pattern.compile("^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$");
+
+	private final String userId;
+	private final String email;
+	private final String passwordHash;
+	private final UserRole role;
 
 	public UserAccount(String userId, String email, String passwordHash, String role){
+		Validator.requireNonBlank(userId, "User id");
+		Validator.requireEmail(email);
+		Validator.requireNonBlank(passwordHash, "Password hash");
+		if(role == null){
+			throw new IllegalArgumentException("User role cannot be null.");
+		}
+
 		this.userId = userId;
 		this.email = email;
 		this.passwordHash = passwordHash;
 		this.role = role;
 	}
-
+	
 	public String getUserId(){
 		return userId;
 	}
@@ -24,18 +36,5 @@ public class UserAccount {
 	}
 	public String getRole(){
 		return role;
-	}
-
-	public String setUserId(String userId){
-		this.userId = userId;
-	}
-	public String setEmail(String email){
-		this.email = email;
-	}
-	public String setPasswordHash(String passwordHash){
-		this.passwordHash = passwordHash;
-	}
-	public String setRole(String role){
-		this.role = role;
 	}
 }

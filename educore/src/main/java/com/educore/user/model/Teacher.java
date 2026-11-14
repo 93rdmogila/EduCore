@@ -1,9 +1,9 @@
 package com.educore.user.model;
 
 public class Teacher implements User{
-	private String id;
-	private String name;
-	private String specialization;
+	private final String id;
+	private final String name;
+	private final String specialization;
 
 	public Teacher(String id, String name, String specialization){
 		this.id = id;
@@ -18,5 +18,8 @@ public class Teacher implements User{
 	@Override 
 	public String getName(){
 		return name;
+	}
+	public String getSpecialization(){
+		return specialization;
 	}
 }
