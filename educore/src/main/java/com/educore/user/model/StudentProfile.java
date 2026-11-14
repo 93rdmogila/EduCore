@@ -1,6 +1,7 @@
 package com.educore.user.model;
 
 import java.util.List;
+import java.util.Collections;
 
 public class StudentProfile {
 	private final String className;
@@ -9,10 +10,11 @@ public class StudentProfile {
 	private final String address;
 	private final String dateOfBirth;
 
-	public StudentProfile(String className, String parentContact, List<String> subjects, String address, String dateOfBirth){
+	//constructor is package-private
+	StudentProfile(String className, String parentContact, List<String> subjects, String address, String dateOfBirth){ 
 		this.className = className;
 		this.parentContact = parentContact;
-		this.subjects = subjects;
+		this.subjects = subjects != null ? List.copyOf(subjects) : Collections.emptyList();
 		this.address = address;
 		this.dateOfBirth = dateOfBirth;
 	}

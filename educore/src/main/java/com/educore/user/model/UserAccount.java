@@ -1,11 +1,8 @@
 package com.educore.user.model;
 
 import com.educore.user.util.Validator;
-import java.util.regex.Pattern;
 
 public class UserAccount {
-	private static final Pattern EMAIL_PATTERN = Pattern.compile("^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$");
-
 	private final String userId;
 	private final String email;
 	private final String passwordHash;
@@ -24,7 +21,7 @@ public class UserAccount {
 		this.passwordHash = passwordHash;
 		this.role = role;
 	}
-	
+
 	public String getUserId(){
 		return userId;
 	}
