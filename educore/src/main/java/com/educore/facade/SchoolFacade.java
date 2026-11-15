@@ -7,38 +7,33 @@ import com.educore.academic.model.Notification;
 import com.educore.academic.service.GradeService;
 import com.educore.academic.strategy.GradeCalculationStrategy;
 import com.educore.academic.strategy.GradeCalculator;
+import com.educore.user.auth.AuthService;
 import com.educore.user.auth.Session;
-import com.educore.user.factory.AdministratorFactory;
-import com.educore.user.factory.StudentFactory;
-import com.educore.user.factory.TeacherFactory;
 import com.educore.user.model.Administrator;
 import com.educore.user.model.Student;
 import com.educore.user.model.Teacher;
 import com.educore.user.model.TeacherSpecialization;
 import com.educore.user.model.User;
-import com.educore.user.model.UserAccount;
 import com.educore.user.model.UserRole;
 import com.educore.user.repository.UserRepository;
-import com.educore.user.util.Validator;
-
+import com.educore.user.auth.RegistrationService;
 import java.util.List;
 
 public class SchoolFacade {
     private final UserRepository userRepository;
     private final GradeService gradeService;
     private final AccessGuard accessGuard;
-
-    private final StudentFactory studentFactory = new StudentFactory();
-    private final TeacherFactory teacherFactory = new TeacherFactory();
-    private final AdministratorFactory administratorFactory =
-            new AdministratorFactory();
+	private final RegistrationService registrationService;
+	private final AuthService authService;
 
     public SchoolFacade(
             UserRepository userRepository,
             GradeService gradeService,
-            AccessGuard accessGuard
+            AccessGuard accessGuard,
+			RegistrationService registrationService,
+			AuthService authService
     ) {
-        if (userRepository == null || gradeService == null || accessGuard == null) {
+        if (userRepository == null || gradeService == null || accessGuard == null || registrationService == null || authService == null) {
             throw new IllegalArgumentException(
                     "Facade dependencies cannot be null"
             );
@@ -47,73 +42,43 @@ public class SchoolFacade {
         this.userRepository = userRepository;
         this.gradeService = gradeService;
         this.accessGuard = accessGuard;
+		this.registrationService = registrationService;
+		this.authService = authService;
     }
 
     public Student registerStudent(
-            Session session,
-            String id,
             String name,
             String email,
-            String passwordHash,
+            String password,
             String className,
             String parentContact
     ) {
-        requireAdministrator(session);
-        validateNewAccount(id, email);
-
-        Student student = studentFactory.createStudent(
-                id, name, className, parentContact
-        );
-        UserAccount account = studentFactory.createAccount(
-                id, email, passwordHash
-        );
-
-        saveUserAndAccount(student, account);
-        return student;
+		return registrationService.registerStudent(name, email, password, className, parentContact);
     }
 
     public Teacher registerTeacher(
             Session session,
-            String id,
             String name,
             String email,
-            String passwordHash,
+            String password,
             TeacherSpecialization specialization
     ) {
         requireAdministrator(session);
-        validateNewAccount(id, email);
-
-        Teacher teacher = teacherFactory.createTeacher(
-                id, name, specialization
-        );
-        UserAccount account = teacherFactory.createAccount(
-                id, email, passwordHash
-        );
-
-        saveUserAndAccount(teacher, account);
-        return teacher;
+		return registrationService.registerTeacher(name, email, password, specialization);
     }
 
     public Administrator registerAdministrator(
             Session session,
-            String id,
             String name,
             String email,
-            String passwordHash
+            String password
     ) {
-        requireAdministrator(session);
-        validateNewAccount(id, email);
-
-        Administrator administrator =
-                administratorFactory.createAdministrator(id, name);
-        UserAccount account = administratorFactory.createAccount(
-                id, email, passwordHash
-        );
-
-        saveUserAndAccount(administrator, account);
-        return administrator;
+        accessGuard.requirePermission(session, Permission.REGISTER_USERS);
+		return registrationService.registerAdministrator(session, name, email, password);
     }
-
+	public Administrator registerFirstAdministrator(String name, String email, String password){
+		return registrationService.registerFirstAdministrator(name, email, password);
+	}
     public void addGrade(Session session, Grade grade) {
         accessGuard.requirePermission(session, Permission.ADD_GRADE);
         gradeService.addGrade(session, grade);
@@ -158,24 +123,10 @@ public class SchoolFacade {
         }
     }
 
-    private void validateNewAccount(String id, String email) {
-        Validator.requireNonBlank(id, "User id");
-        Validator.requireEmail(email);
-
-        if (userRepository.findUserById(id).isPresent()
-                || userRepository.findAccountByUserId(id).isPresent()) {
-            throw new IllegalArgumentException("User id already exists: " + id);
-        }
-
-        if (userRepository.existsAccountByEmail(email)) {
-            throw new IllegalArgumentException(
-                    "Email is already registered: " + email
-            );
-        }
-    }
-
-    private void saveUserAndAccount(User user, UserAccount account) {
-        userRepository.saveUser(user);
-        userRepository.saveAccount(account);
-    }
+	public Session login(String email, String password){
+		return authService.login(email, password);
+	}
+	public void logout(Session session){
+		authService.logout(session);
+	}
 }
