@@ -1,0 +1,1274 @@
+[
+  {
+    "id": "15b7502e-02fe-48fb-90b5-763b8c2a25c6",
+    "studentId": "5e9ef897-c776-429f-a3a1-bb1a8be4834a",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "HOMEWORK",
+    "score": 88
+  },
+  {
+    "id": "af91ed67-6fe1-45e1-92e6-a12e35b22fd1",
+    "studentId": "5e9ef897-c776-429f-a3a1-bb1a8be4834a",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "QUIZ",
+    "score": 92
+  },
+  {
+    "id": "2302305e-8e6c-429f-b43e-63cb4b1e2377",
+    "studentId": "5e9ef897-c776-429f-a3a1-bb1a8be4834a",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "EXAM",
+    "score": 95
+  },
+  {
+    "id": "30e69fc6-7b73-440f-b38a-bfd58aaca809",
+    "studentId": "5c10956d-b9ac-4b31-b0b6-baa99547a4f9",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "HOMEWORK",
+    "score": 76
+  },
+  {
+    "id": "77e82805-d0b6-42fe-9573-66b0305062d1",
+    "studentId": "5c10956d-b9ac-4b31-b0b6-baa99547a4f9",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "QUIZ",
+    "score": 84
+  },
+  {
+    "id": "1040135b-94c4-4a09-9756-c81b78fac9ca",
+    "studentId": "5c10956d-b9ac-4b31-b0b6-baa99547a4f9",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "EXAM",
+    "score": 91
+  },
+  {
+    "id": "6f9c42ee-32ed-490f-b276-fa8352a071dd",
+    "studentId": "87542792-deb4-4475-a6a7-97da4507256b",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "HOMEWORK",
+    "score": 73
+  },
+  {
+    "id": "de77a559-34a1-49cf-82f3-a4c2cb66d61d",
+    "studentId": "87542792-deb4-4475-a6a7-97da4507256b",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "QUIZ",
+    "score": 87
+  },
+  {
+    "id": "b7a6e55a-adbb-43b4-9145-471efa0b4a23",
+    "studentId": "87542792-deb4-4475-a6a7-97da4507256b",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "EXAM",
+    "score": 94
+  },
+  {
+    "id": "d4e59293-803d-4b0e-91b0-1cea66dc365b",
+    "studentId": "345293e2-124a-4409-9a62-4a93c2241357",
+    "teacherId": "9ccd39f8-7bc3-4c73-82bb-57599ddfdaa7",
+    "subject": "CHEMISTRY",
+    "type": "HOMEWORK",
+    "score": 76
+  },
+  {
+    "id": "2972a2c9-6f44-4a62-a8ab-5d98887aa0e5",
+    "studentId": "345293e2-124a-4409-9a62-4a93c2241357",
+    "teacherId": "9ccd39f8-7bc3-4c73-82bb-57599ddfdaa7",
+    "subject": "CHEMISTRY",
+    "type": "QUIZ",
+    "score": 70
+  },
+  {
+    "id": "1dcc76ab-58ec-4cd7-a416-ec2a453cf217",
+    "studentId": "345293e2-124a-4409-9a62-4a93c2241357",
+    "teacherId": "9ccd39f8-7bc3-4c73-82bb-57599ddfdaa7",
+    "subject": "CHEMISTRY",
+    "type": "EXAM",
+    "score": 82
+  },
+  {
+    "id": "b32533f4-eb57-4739-8726-6bb8e4012fc2",
+    "studentId": "9f2d9374-00c8-484a-885e-41f4aab14ed3",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "HOMEWORK",
+    "score": 78
+  },
+  {
+    "id": "6ee6bd7a-7818-42c2-a8b0-cfecdcc239e9",
+    "studentId": "9f2d9374-00c8-484a-885e-41f4aab14ed3",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "QUIZ",
+    "score": 76
+  },
+  {
+    "id": "9d914907-64ee-4033-acd3-b6f9aac42b33",
+    "studentId": "9f2d9374-00c8-484a-885e-41f4aab14ed3",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "EXAM",
+    "score": 89
+  },
+  {
+    "id": "62771698-f777-4686-8f7f-b8964e51246e",
+    "studentId": "49a76cb9-9094-44cc-9bdd-3ac45c139596",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "HOMEWORK",
+    "score": 81
+  },
+  {
+    "id": "b6dc636b-b79e-44fb-868d-edd130239797",
+    "studentId": "49a76cb9-9094-44cc-9bdd-3ac45c139596",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "QUIZ",
+    "score": 76
+  },
+  {
+    "id": "a0f8fdf0-b536-4c73-91ca-d9e96aa6625d",
+    "studentId": "49a76cb9-9094-44cc-9bdd-3ac45c139596",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "EXAM",
+    "score": 90
+  },
+  {
+    "id": "8c7ce34e-9c7c-483b-ab8c-db9cef3e86c8",
+    "studentId": "c3f90b48-555c-4aad-a805-71fcfa9bec44",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "HOMEWORK",
+    "score": 86
+  },
+  {
+    "id": "8dffebca-c947-41df-950e-5054ff632855",
+    "studentId": "c3f90b48-555c-4aad-a805-71fcfa9bec44",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "QUIZ",
+    "score": 71
+  },
+  {
+    "id": "4a0418c6-c2ae-40a3-8bdd-44ee6e9bc09e",
+    "studentId": "c3f90b48-555c-4aad-a805-71fcfa9bec44",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "EXAM",
+    "score": 68
+  },
+  {
+    "id": "703b27b8-0a78-453a-811d-024fb2e23045",
+    "studentId": "1c3c655f-17df-4339-be70-6cb7a20b488f",
+    "teacherId": "c1d1ab5f-cc77-4814-8e20-ee6ff07873d2",
+    "subject": "BIOLOGY",
+    "type": "HOMEWORK",
+    "score": 95
+  },
+  {
+    "id": "6df0c3dc-33e8-4960-8227-9a20b8d6ae75",
+    "studentId": "1c3c655f-17df-4339-be70-6cb7a20b488f",
+    "teacherId": "c1d1ab5f-cc77-4814-8e20-ee6ff07873d2",
+    "subject": "BIOLOGY",
+    "type": "QUIZ",
+    "score": 81
+  },
+  {
+    "id": "7b7cab8e-0208-4b0a-b627-488aaf9924cf",
+    "studentId": "1c3c655f-17df-4339-be70-6cb7a20b488f",
+    "teacherId": "c1d1ab5f-cc77-4814-8e20-ee6ff07873d2",
+    "subject": "BIOLOGY",
+    "type": "EXAM",
+    "score": 86
+  },
+  {
+    "id": "16a6df2e-e79a-4da4-8061-df268e5d4806",
+    "studentId": "252631c9-ef9b-4309-9737-e76ff9bc54f8",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "HOMEWORK",
+    "score": 81
+  },
+  {
+    "id": "f01ddbc4-331e-4fe0-9da0-31c8c91506ff",
+    "studentId": "252631c9-ef9b-4309-9737-e76ff9bc54f8",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "QUIZ",
+    "score": 85
+  },
+  {
+    "id": "922904d8-37d7-4d59-9405-9ac58765f3ea",
+    "studentId": "252631c9-ef9b-4309-9737-e76ff9bc54f8",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "EXAM",
+    "score": 75
+  },
+  {
+    "id": "46e3c105-3984-4ca6-ad28-5b374dc2976f",
+    "studentId": "546fe085-9c18-4ac6-a79d-97e864007222",
+    "teacherId": "9ccd39f8-7bc3-4c73-82bb-57599ddfdaa7",
+    "subject": "CHEMISTRY",
+    "type": "HOMEWORK",
+    "score": 88
+  },
+  {
+    "id": "af5276a9-a6a4-47b1-a1c4-c057ce439934",
+    "studentId": "546fe085-9c18-4ac6-a79d-97e864007222",
+    "teacherId": "9ccd39f8-7bc3-4c73-82bb-57599ddfdaa7",
+    "subject": "CHEMISTRY",
+    "type": "QUIZ",
+    "score": 93
+  },
+  {
+    "id": "eb362add-d8ae-4393-8137-2c5f9db64e69",
+    "studentId": "546fe085-9c18-4ac6-a79d-97e864007222",
+    "teacherId": "9ccd39f8-7bc3-4c73-82bb-57599ddfdaa7",
+    "subject": "CHEMISTRY",
+    "type": "EXAM",
+    "score": 93
+  },
+  {
+    "id": "f0109626-017a-44d8-b209-555a5bb694d1",
+    "studentId": "ea6532ca-16b3-4e22-ae9b-c89dd9ede1eb",
+    "teacherId": "c1d1ab5f-cc77-4814-8e20-ee6ff07873d2",
+    "subject": "BIOLOGY",
+    "type": "HOMEWORK",
+    "score": 87
+  },
+  {
+    "id": "baccf03a-4457-4989-9c40-b1e2cab090cf",
+    "studentId": "ea6532ca-16b3-4e22-ae9b-c89dd9ede1eb",
+    "teacherId": "c1d1ab5f-cc77-4814-8e20-ee6ff07873d2",
+    "subject": "BIOLOGY",
+    "type": "QUIZ",
+    "score": 75
+  },
+  {
+    "id": "63157f35-398e-46c3-8de8-1635eb968fc8",
+    "studentId": "ea6532ca-16b3-4e22-ae9b-c89dd9ede1eb",
+    "teacherId": "c1d1ab5f-cc77-4814-8e20-ee6ff07873d2",
+    "subject": "BIOLOGY",
+    "type": "EXAM",
+    "score": 76
+  },
+  {
+    "id": "dc68dc2f-f1fb-43b9-b4ec-026b13d62f6b",
+    "studentId": "2c10eb9b-38eb-4b6c-b8c1-6bda874e51f7",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "HOMEWORK",
+    "score": 81
+  },
+  {
+    "id": "67fd14aa-c460-4bb4-8060-478b12741b54",
+    "studentId": "2c10eb9b-38eb-4b6c-b8c1-6bda874e51f7",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "QUIZ",
+    "score": 91
+  },
+  {
+    "id": "89f1649b-58cd-4a5f-875a-df6e4b4ad36d",
+    "studentId": "2c10eb9b-38eb-4b6c-b8c1-6bda874e51f7",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "EXAM",
+    "score": 76
+  },
+  {
+    "id": "f288dee5-6d77-4be8-bbf1-92d229098a49",
+    "studentId": "ea090db6-2d74-482d-a38b-72adda48cc95",
+    "teacherId": "c1d1ab5f-cc77-4814-8e20-ee6ff07873d2",
+    "subject": "BIOLOGY",
+    "type": "HOMEWORK",
+    "score": 91
+  },
+  {
+    "id": "b5e7bfd3-3312-4386-9573-6a86c334dfbc",
+    "studentId": "ea090db6-2d74-482d-a38b-72adda48cc95",
+    "teacherId": "c1d1ab5f-cc77-4814-8e20-ee6ff07873d2",
+    "subject": "BIOLOGY",
+    "type": "QUIZ",
+    "score": 77
+  },
+  {
+    "id": "be3861ac-b340-4c4d-9a9c-b662c14134ce",
+    "studentId": "ea090db6-2d74-482d-a38b-72adda48cc95",
+    "teacherId": "c1d1ab5f-cc77-4814-8e20-ee6ff07873d2",
+    "subject": "BIOLOGY",
+    "type": "EXAM",
+    "score": 78
+  },
+  {
+    "id": "ff580769-5635-4d6b-ad69-856a348fce97",
+    "studentId": "9c2770cf-bcbc-4740-a90e-029c95332b1d",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "HOMEWORK",
+    "score": 90
+  },
+  {
+    "id": "c28300ff-61e5-482c-a86c-b416871ba81a",
+    "studentId": "9c2770cf-bcbc-4740-a90e-029c95332b1d",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "QUIZ",
+    "score": 89
+  },
+  {
+    "id": "8e1f61c2-336d-4e6d-b83b-9026dccc9c25",
+    "studentId": "9c2770cf-bcbc-4740-a90e-029c95332b1d",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "EXAM",
+    "score": 80
+  },
+  {
+    "id": "f2967686-2bfd-4884-8abd-5c397167be5f",
+    "studentId": "45f64b1e-f72a-410b-bb80-e7076a402758",
+    "teacherId": "9ccd39f8-7bc3-4c73-82bb-57599ddfdaa7",
+    "subject": "CHEMISTRY",
+    "type": "HOMEWORK",
+    "score": 89
+  },
+  {
+    "id": "5d16efbb-dd73-40d8-8a1a-b11050c9ffaa",
+    "studentId": "45f64b1e-f72a-410b-bb80-e7076a402758",
+    "teacherId": "9ccd39f8-7bc3-4c73-82bb-57599ddfdaa7",
+    "subject": "CHEMISTRY",
+    "type": "QUIZ",
+    "score": 73
+  },
+  {
+    "id": "0d96d4d6-13a4-4a1c-84c0-38ea1ce79064",
+    "studentId": "45f64b1e-f72a-410b-bb80-e7076a402758",
+    "teacherId": "9ccd39f8-7bc3-4c73-82bb-57599ddfdaa7",
+    "subject": "CHEMISTRY",
+    "type": "EXAM",
+    "score": 76
+  },
+  {
+    "id": "8b381c85-c979-47c3-84ef-b94d128bda51",
+    "studentId": "d91e3dd9-4af4-40bb-ab5a-b1ecb333657c",
+    "teacherId": "9ccd39f8-7bc3-4c73-82bb-57599ddfdaa7",
+    "subject": "CHEMISTRY",
+    "type": "HOMEWORK",
+    "score": 74
+  },
+  {
+    "id": "e35e66e1-ca25-4443-b8a3-3c029ca91bb1",
+    "studentId": "d91e3dd9-4af4-40bb-ab5a-b1ecb333657c",
+    "teacherId": "9ccd39f8-7bc3-4c73-82bb-57599ddfdaa7",
+    "subject": "CHEMISTRY",
+    "type": "QUIZ",
+    "score": 89
+  },
+  {
+    "id": "c53a9bfd-75a2-48be-ba0d-46c2bc7dd8e4",
+    "studentId": "d91e3dd9-4af4-40bb-ab5a-b1ecb333657c",
+    "teacherId": "9ccd39f8-7bc3-4c73-82bb-57599ddfdaa7",
+    "subject": "CHEMISTRY",
+    "type": "EXAM",
+    "score": 72
+  },
+  {
+    "id": "85749bb3-0bb4-489d-9ffa-feb14d0b345d",
+    "studentId": "eabb9226-63cd-425d-9c83-ae7b26310342",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "HOMEWORK",
+    "score": 74
+  },
+  {
+    "id": "3291817c-c395-4644-9a16-14612871b793",
+    "studentId": "eabb9226-63cd-425d-9c83-ae7b26310342",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "QUIZ",
+    "score": 73
+  },
+  {
+    "id": "b918aa73-eb53-4837-8ea5-649709a35466",
+    "studentId": "eabb9226-63cd-425d-9c83-ae7b26310342",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "EXAM",
+    "score": 76
+  },
+  {
+    "id": "66b0e0e1-d5d9-4a0e-aaef-f660bd80e74c",
+    "studentId": "d9f76413-9a7f-4669-84d0-31498d47c311",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "HOMEWORK",
+    "score": 88
+  },
+  {
+    "id": "687f3709-9e84-4469-b850-df3b74397373",
+    "studentId": "d9f76413-9a7f-4669-84d0-31498d47c311",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "QUIZ",
+    "score": 75
+  },
+  {
+    "id": "afc180b4-507b-48b4-8c80-602571b38b3e",
+    "studentId": "d9f76413-9a7f-4669-84d0-31498d47c311",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "EXAM",
+    "score": 75
+  },
+  {
+    "id": "1a18181f-39b2-4448-be8e-0a8e5998752b",
+    "studentId": "77fda179-ee58-48b2-84ff-ee9b96b1fb60",
+    "teacherId": "c1d1ab5f-cc77-4814-8e20-ee6ff07873d2",
+    "subject": "BIOLOGY",
+    "type": "HOMEWORK",
+    "score": 90
+  },
+  {
+    "id": "f79c3a5c-5877-4e01-944b-8bc961449fcb",
+    "studentId": "77fda179-ee58-48b2-84ff-ee9b96b1fb60",
+    "teacherId": "c1d1ab5f-cc77-4814-8e20-ee6ff07873d2",
+    "subject": "BIOLOGY",
+    "type": "QUIZ",
+    "score": 79
+  },
+  {
+    "id": "5c0bc887-5293-42af-94ba-20c7c7a0af86",
+    "studentId": "77fda179-ee58-48b2-84ff-ee9b96b1fb60",
+    "teacherId": "c1d1ab5f-cc77-4814-8e20-ee6ff07873d2",
+    "subject": "BIOLOGY",
+    "type": "EXAM",
+    "score": 78
+  },
+  {
+    "id": "70674c72-211b-4945-a3ae-af0fce1365f6",
+    "studentId": "089a81c4-4361-416c-97bd-6cc2b273a2d5",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "HOMEWORK",
+    "score": 81
+  },
+  {
+    "id": "4c59818d-7ca9-47f6-89d0-9688725d2e58",
+    "studentId": "089a81c4-4361-416c-97bd-6cc2b273a2d5",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "QUIZ",
+    "score": 80
+  },
+  {
+    "id": "3d96d7fa-ddfb-47cf-9c70-dc2e2b5654ca",
+    "studentId": "089a81c4-4361-416c-97bd-6cc2b273a2d5",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "EXAM",
+    "score": 72
+  },
+  {
+    "id": "0e5af9e6-0b2e-4108-a215-9746f02a980d",
+    "studentId": "b1d3fe15-0d75-4c99-8352-e20a0ab5aee1",
+    "teacherId": "9ccd39f8-7bc3-4c73-82bb-57599ddfdaa7",
+    "subject": "CHEMISTRY",
+    "type": "HOMEWORK",
+    "score": 74
+  },
+  {
+    "id": "0fd1c2f6-76c8-4097-8c58-82708389a5ec",
+    "studentId": "b1d3fe15-0d75-4c99-8352-e20a0ab5aee1",
+    "teacherId": "9ccd39f8-7bc3-4c73-82bb-57599ddfdaa7",
+    "subject": "CHEMISTRY",
+    "type": "QUIZ",
+    "score": 88
+  },
+  {
+    "id": "cec31e4b-b67c-4b12-934e-731402b55dc0",
+    "studentId": "b1d3fe15-0d75-4c99-8352-e20a0ab5aee1",
+    "teacherId": "9ccd39f8-7bc3-4c73-82bb-57599ddfdaa7",
+    "subject": "CHEMISTRY",
+    "type": "EXAM",
+    "score": 78
+  },
+  {
+    "id": "41f729b6-70c5-4fb6-b68b-44a2b7d7e4d5",
+    "studentId": "3a8c0505-d655-4fff-915e-a4ea5e1b2abb",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "HOMEWORK",
+    "score": 83
+  },
+  {
+    "id": "deb1834d-2926-4422-bbc7-d7344a5bff81",
+    "studentId": "3a8c0505-d655-4fff-915e-a4ea5e1b2abb",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "QUIZ",
+    "score": 90
+  },
+  {
+    "id": "fd28d86e-423d-43e6-be83-77966dc10952",
+    "studentId": "3a8c0505-d655-4fff-915e-a4ea5e1b2abb",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "EXAM",
+    "score": 90
+  },
+  {
+    "id": "ced2502f-8d19-4e12-bf20-c0cbff1c7fa2",
+    "studentId": "f9958f8c-503d-4cce-a015-79c6147fcb7d",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "HOMEWORK",
+    "score": 76
+  },
+  {
+    "id": "a905908f-6dd3-4c53-9c1a-737e28531f6f",
+    "studentId": "f9958f8c-503d-4cce-a015-79c6147fcb7d",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "QUIZ",
+    "score": 78
+  },
+  {
+    "id": "585930e9-35bd-4321-8fb9-0c266e7f652a",
+    "studentId": "f9958f8c-503d-4cce-a015-79c6147fcb7d",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "EXAM",
+    "score": 99
+  },
+  {
+    "id": "7e6c0a3c-8350-4914-bf71-6cd9ff3b97ed",
+    "studentId": "5422641d-f7f7-4cc6-b263-7d5e198d5622",
+    "teacherId": "c1d1ab5f-cc77-4814-8e20-ee6ff07873d2",
+    "subject": "BIOLOGY",
+    "type": "HOMEWORK",
+    "score": 84
+  },
+  {
+    "id": "e9d1f7a7-d78c-43fc-9be7-d53d2eb078ec",
+    "studentId": "5422641d-f7f7-4cc6-b263-7d5e198d5622",
+    "teacherId": "c1d1ab5f-cc77-4814-8e20-ee6ff07873d2",
+    "subject": "BIOLOGY",
+    "type": "QUIZ",
+    "score": 73
+  },
+  {
+    "id": "2b0282a8-7aa0-48c3-a6b1-704ca38178dc",
+    "studentId": "5422641d-f7f7-4cc6-b263-7d5e198d5622",
+    "teacherId": "c1d1ab5f-cc77-4814-8e20-ee6ff07873d2",
+    "subject": "BIOLOGY",
+    "type": "EXAM",
+    "score": 78
+  },
+  {
+    "id": "ade344a3-78aa-4e66-a6ae-9e2158c046eb",
+    "studentId": "0f37c2b1-41a6-4fa0-ba5a-8d373a64cd52",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "HOMEWORK",
+    "score": 84
+  },
+  {
+    "id": "bcc6cc49-b566-469d-8628-7fc64c4df785",
+    "studentId": "0f37c2b1-41a6-4fa0-ba5a-8d373a64cd52",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "QUIZ",
+    "score": 89
+  },
+  {
+    "id": "70dcbb6a-f6eb-488b-8670-0ad64e158725",
+    "studentId": "0f37c2b1-41a6-4fa0-ba5a-8d373a64cd52",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "EXAM",
+    "score": 100
+  },
+  {
+    "id": "90e480bd-ba4b-41a8-921a-cc1c5578cb5b",
+    "studentId": "b3aceb04-515a-4e90-aef3-d974b1322f89",
+    "teacherId": "c1d1ab5f-cc77-4814-8e20-ee6ff07873d2",
+    "subject": "BIOLOGY",
+    "type": "HOMEWORK",
+    "score": 94
+  },
+  {
+    "id": "a09ebbae-a874-4369-8956-7c4631503ad5",
+    "studentId": "b3aceb04-515a-4e90-aef3-d974b1322f89",
+    "teacherId": "c1d1ab5f-cc77-4814-8e20-ee6ff07873d2",
+    "subject": "BIOLOGY",
+    "type": "QUIZ",
+    "score": 79
+  },
+  {
+    "id": "50b4dcf5-eb46-40f6-8ba6-c7c52dadf0ce",
+    "studentId": "b3aceb04-515a-4e90-aef3-d974b1322f89",
+    "teacherId": "c1d1ab5f-cc77-4814-8e20-ee6ff07873d2",
+    "subject": "BIOLOGY",
+    "type": "EXAM",
+    "score": 99
+  },
+  {
+    "id": "c1a55913-d792-462b-b83a-4e27e03dd519",
+    "studentId": "59b7e6e6-7adb-4585-a4dc-acc57ad1b758",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "HOMEWORK",
+    "score": 78
+  },
+  {
+    "id": "765ff9c0-c2a7-4d3b-af7a-a1724300031e",
+    "studentId": "59b7e6e6-7adb-4585-a4dc-acc57ad1b758",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "QUIZ",
+    "score": 80
+  },
+  {
+    "id": "b80dd6b1-b930-4499-8a84-6193cae2c528",
+    "studentId": "59b7e6e6-7adb-4585-a4dc-acc57ad1b758",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "EXAM",
+    "score": 68
+  },
+  {
+    "id": "1db8d7fa-17a0-40a1-94b7-66092ccba27f",
+    "studentId": "eb171074-ae5c-4a5b-98aa-7285ed54cb6c",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "HOMEWORK",
+    "score": 98
+  },
+  {
+    "id": "e3517c7b-0192-463f-84c8-e09d993bb139",
+    "studentId": "eb171074-ae5c-4a5b-98aa-7285ed54cb6c",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "QUIZ",
+    "score": 82
+  },
+  {
+    "id": "1f511255-5e96-4fc9-98ce-4b4b03adaae8",
+    "studentId": "eb171074-ae5c-4a5b-98aa-7285ed54cb6c",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "EXAM",
+    "score": 91
+  },
+  {
+    "id": "620bb3b6-870b-45dc-a9ac-d8c40260cab0",
+    "studentId": "5817d965-0a7e-4841-b6d8-1f28b147c8f6",
+    "teacherId": "9ccd39f8-7bc3-4c73-82bb-57599ddfdaa7",
+    "subject": "CHEMISTRY",
+    "type": "HOMEWORK",
+    "score": 78
+  },
+  {
+    "id": "b464fbbf-7674-49d6-9963-a53960a43a20",
+    "studentId": "5817d965-0a7e-4841-b6d8-1f28b147c8f6",
+    "teacherId": "9ccd39f8-7bc3-4c73-82bb-57599ddfdaa7",
+    "subject": "CHEMISTRY",
+    "type": "QUIZ",
+    "score": 94
+  },
+  {
+    "id": "ae21be45-b433-401d-bb59-4ba7538cb88e",
+    "studentId": "5817d965-0a7e-4841-b6d8-1f28b147c8f6",
+    "teacherId": "9ccd39f8-7bc3-4c73-82bb-57599ddfdaa7",
+    "subject": "CHEMISTRY",
+    "type": "EXAM",
+    "score": 95
+  },
+  {
+    "id": "718671f0-cb47-45c4-9912-dab4c0e7e80f",
+    "studentId": "9818083f-7753-4f70-956d-c9bd73d95733",
+    "teacherId": "9ccd39f8-7bc3-4c73-82bb-57599ddfdaa7",
+    "subject": "CHEMISTRY",
+    "type": "HOMEWORK",
+    "score": 83
+  },
+  {
+    "id": "31a46e1d-678a-4d9e-89ab-d1da7ce6f57e",
+    "studentId": "9818083f-7753-4f70-956d-c9bd73d95733",
+    "teacherId": "9ccd39f8-7bc3-4c73-82bb-57599ddfdaa7",
+    "subject": "CHEMISTRY",
+    "type": "QUIZ",
+    "score": 91
+  },
+  {
+    "id": "b415d049-4982-450d-ac5b-b3a24b83cb23",
+    "studentId": "9818083f-7753-4f70-956d-c9bd73d95733",
+    "teacherId": "9ccd39f8-7bc3-4c73-82bb-57599ddfdaa7",
+    "subject": "CHEMISTRY",
+    "type": "EXAM",
+    "score": 95
+  },
+  {
+    "id": "dfd7f06a-32a7-4e9f-ae0d-48b58a471605",
+    "studentId": "2f19841b-05b0-4b19-a154-681210630021",
+    "teacherId": "c1d1ab5f-cc77-4814-8e20-ee6ff07873d2",
+    "subject": "BIOLOGY",
+    "type": "HOMEWORK",
+    "score": 86
+  },
+  {
+    "id": "dc2306fc-e9c5-48b7-975a-e8b85934fdca",
+    "studentId": "2f19841b-05b0-4b19-a154-681210630021",
+    "teacherId": "c1d1ab5f-cc77-4814-8e20-ee6ff07873d2",
+    "subject": "BIOLOGY",
+    "type": "QUIZ",
+    "score": 93
+  },
+  {
+    "id": "17197637-842f-460d-a941-3080ce836df1",
+    "studentId": "2f19841b-05b0-4b19-a154-681210630021",
+    "teacherId": "c1d1ab5f-cc77-4814-8e20-ee6ff07873d2",
+    "subject": "BIOLOGY",
+    "type": "EXAM",
+    "score": 68
+  },
+  {
+    "id": "da59e22d-8664-48d7-a56b-be0eba74306a",
+    "studentId": "711dd070-56f2-41c4-984f-9698aa2bb472",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "HOMEWORK",
+    "score": 79
+  },
+  {
+    "id": "7da45925-822c-4f35-9944-5f4d7a86edfb",
+    "studentId": "711dd070-56f2-41c4-984f-9698aa2bb472",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "QUIZ",
+    "score": 96
+  },
+  {
+    "id": "e22965be-356e-4e10-a5df-ff620be05b94",
+    "studentId": "711dd070-56f2-41c4-984f-9698aa2bb472",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "EXAM",
+    "score": 86
+  },
+  {
+    "id": "1c827002-5e64-435d-8ff7-cda29cea9c9c",
+    "studentId": "c6d7b027-9295-48b6-8904-2a7ca682f5c9",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "HOMEWORK",
+    "score": 80
+  },
+  {
+    "id": "a40aa91c-b8dc-4f2e-8e90-2642e03089d6",
+    "studentId": "c6d7b027-9295-48b6-8904-2a7ca682f5c9",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "QUIZ",
+    "score": 92
+  },
+  {
+    "id": "b8be0a34-8105-4e90-9e6d-b5461acfa0d5",
+    "studentId": "c6d7b027-9295-48b6-8904-2a7ca682f5c9",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "EXAM",
+    "score": 79
+  },
+  {
+    "id": "5981e826-4f90-4968-97d6-87912712dd0a",
+    "studentId": "1de1beee-6048-4238-9522-2593f8e27623",
+    "teacherId": "c1d1ab5f-cc77-4814-8e20-ee6ff07873d2",
+    "subject": "BIOLOGY",
+    "type": "HOMEWORK",
+    "score": 90
+  },
+  {
+    "id": "4d1f4533-73b3-47a4-89c3-dbcb897b78e1",
+    "studentId": "1de1beee-6048-4238-9522-2593f8e27623",
+    "teacherId": "c1d1ab5f-cc77-4814-8e20-ee6ff07873d2",
+    "subject": "BIOLOGY",
+    "type": "QUIZ",
+    "score": 97
+  },
+  {
+    "id": "f924d85e-54ce-4a5c-9b54-97d6e6ff84fa",
+    "studentId": "1de1beee-6048-4238-9522-2593f8e27623",
+    "teacherId": "c1d1ab5f-cc77-4814-8e20-ee6ff07873d2",
+    "subject": "BIOLOGY",
+    "type": "EXAM",
+    "score": 100
+  },
+  {
+    "id": "f176ba44-96a9-4d84-a59d-a933fd9e079e",
+    "studentId": "eab82079-d3c8-493b-a13b-9bf068833bc1",
+    "teacherId": "9ccd39f8-7bc3-4c73-82bb-57599ddfdaa7",
+    "subject": "CHEMISTRY",
+    "type": "HOMEWORK",
+    "score": 77
+  },
+  {
+    "id": "0531e709-a62a-4b73-92d4-8178c53260be",
+    "studentId": "eab82079-d3c8-493b-a13b-9bf068833bc1",
+    "teacherId": "9ccd39f8-7bc3-4c73-82bb-57599ddfdaa7",
+    "subject": "CHEMISTRY",
+    "type": "QUIZ",
+    "score": 96
+  },
+  {
+    "id": "fa1675fe-00f9-43c0-be38-34da2e86ee2d",
+    "studentId": "eab82079-d3c8-493b-a13b-9bf068833bc1",
+    "teacherId": "9ccd39f8-7bc3-4c73-82bb-57599ddfdaa7",
+    "subject": "CHEMISTRY",
+    "type": "EXAM",
+    "score": 75
+  },
+  {
+    "id": "5924c949-9b4b-4078-b28d-ec4d1cb11bec",
+    "studentId": "50815efa-dcde-493e-ac91-9cfa82fb48e5",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "HOMEWORK",
+    "score": 88
+  },
+  {
+    "id": "2856de39-09fc-4235-93e6-251c5ed0df00",
+    "studentId": "50815efa-dcde-493e-ac91-9cfa82fb48e5",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "QUIZ",
+    "score": 78
+  },
+  {
+    "id": "cb65f522-f2ba-4c40-8125-8c898562b668",
+    "studentId": "50815efa-dcde-493e-ac91-9cfa82fb48e5",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "EXAM",
+    "score": 79
+  },
+  {
+    "id": "6c3e3c6f-30c2-4e24-89c5-f8827073de05",
+    "studentId": "e897cc86-a22a-4ebd-94d3-56940edd7394",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "HOMEWORK",
+    "score": 81
+  },
+  {
+    "id": "2314b87c-aac9-4136-8f26-8670fcbffc5a",
+    "studentId": "e897cc86-a22a-4ebd-94d3-56940edd7394",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "QUIZ",
+    "score": 72
+  },
+  {
+    "id": "4d692e37-64c4-4039-bf11-d63dd1e3444d",
+    "studentId": "e897cc86-a22a-4ebd-94d3-56940edd7394",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "EXAM",
+    "score": 89
+  },
+  {
+    "id": "bbd6db1a-f882-4af1-a37b-c85d1d92853b",
+    "studentId": "70ea4912-fcfc-4401-976a-c8cd68dd8f8e",
+    "teacherId": "9ccd39f8-7bc3-4c73-82bb-57599ddfdaa7",
+    "subject": "CHEMISTRY",
+    "type": "HOMEWORK",
+    "score": 96
+  },
+  {
+    "id": "39bee577-4500-4c36-b99d-295adb6f7bcb",
+    "studentId": "70ea4912-fcfc-4401-976a-c8cd68dd8f8e",
+    "teacherId": "9ccd39f8-7bc3-4c73-82bb-57599ddfdaa7",
+    "subject": "CHEMISTRY",
+    "type": "QUIZ",
+    "score": 93
+  },
+  {
+    "id": "497ea169-88e9-4af7-aef3-19816bf23fa3",
+    "studentId": "70ea4912-fcfc-4401-976a-c8cd68dd8f8e",
+    "teacherId": "9ccd39f8-7bc3-4c73-82bb-57599ddfdaa7",
+    "subject": "CHEMISTRY",
+    "type": "EXAM",
+    "score": 71
+  },
+  {
+    "id": "7e77178c-26b3-4aec-8903-54f7dccda70c",
+    "studentId": "d84614c3-0b0d-4ff2-8fa5-540c4e3895bd",
+    "teacherId": "c1d1ab5f-cc77-4814-8e20-ee6ff07873d2",
+    "subject": "BIOLOGY",
+    "type": "HOMEWORK",
+    "score": 78
+  },
+  {
+    "id": "013aa178-d54e-401e-a54a-f03f714f7b70",
+    "studentId": "d84614c3-0b0d-4ff2-8fa5-540c4e3895bd",
+    "teacherId": "c1d1ab5f-cc77-4814-8e20-ee6ff07873d2",
+    "subject": "BIOLOGY",
+    "type": "QUIZ",
+    "score": 80
+  },
+  {
+    "id": "a884d95d-999a-4153-9a06-0ff601a70e30",
+    "studentId": "d84614c3-0b0d-4ff2-8fa5-540c4e3895bd",
+    "teacherId": "c1d1ab5f-cc77-4814-8e20-ee6ff07873d2",
+    "subject": "BIOLOGY",
+    "type": "EXAM",
+    "score": 99
+  },
+  {
+    "id": "937ec39c-7505-4a40-ba37-465b7aa6fc23",
+    "studentId": "b6f94f0a-3ce0-42df-92a5-b43772d5d5cb",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "HOMEWORK",
+    "score": 83
+  },
+  {
+    "id": "2d35b0b8-ada1-454a-8e11-95d61f2092bc",
+    "studentId": "b6f94f0a-3ce0-42df-92a5-b43772d5d5cb",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "QUIZ",
+    "score": 79
+  },
+  {
+    "id": "c40020de-e7a5-4e42-ad1c-a28f26bf8ebb",
+    "studentId": "b6f94f0a-3ce0-42df-92a5-b43772d5d5cb",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "EXAM",
+    "score": 100
+  },
+  {
+    "id": "2721db30-d519-4918-b837-85fdb465e66c",
+    "studentId": "d2750741-a08b-4ace-a84e-7272a8a3f9a8",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "HOMEWORK",
+    "score": 73
+  },
+  {
+    "id": "4459b3ca-3617-4a03-bace-64558825fabc",
+    "studentId": "d2750741-a08b-4ace-a84e-7272a8a3f9a8",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "QUIZ",
+    "score": 97
+  },
+  {
+    "id": "5eaae200-9eb9-42c6-b193-925be1be8241",
+    "studentId": "d2750741-a08b-4ace-a84e-7272a8a3f9a8",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "EXAM",
+    "score": 94
+  },
+  {
+    "id": "c0068cb1-bccb-4ae0-9984-62f44dd836d8",
+    "studentId": "156d0180-d9d6-4c43-ac07-8a2eb00cde32",
+    "teacherId": "9ccd39f8-7bc3-4c73-82bb-57599ddfdaa7",
+    "subject": "CHEMISTRY",
+    "type": "HOMEWORK",
+    "score": 83
+  },
+  {
+    "id": "c65c3d36-46e0-4a99-914d-2690174d5f39",
+    "studentId": "156d0180-d9d6-4c43-ac07-8a2eb00cde32",
+    "teacherId": "9ccd39f8-7bc3-4c73-82bb-57599ddfdaa7",
+    "subject": "CHEMISTRY",
+    "type": "QUIZ",
+    "score": 98
+  },
+  {
+    "id": "93b5d21d-acad-48fd-a50c-8e0e331db218",
+    "studentId": "156d0180-d9d6-4c43-ac07-8a2eb00cde32",
+    "teacherId": "9ccd39f8-7bc3-4c73-82bb-57599ddfdaa7",
+    "subject": "CHEMISTRY",
+    "type": "EXAM",
+    "score": 78
+  },
+  {
+    "id": "2c95560f-04ef-4652-8adb-82c9d33fc202",
+    "studentId": "5219156b-7269-440c-bbbd-b2b9fdc91d4c",
+    "teacherId": "c1d1ab5f-cc77-4814-8e20-ee6ff07873d2",
+    "subject": "BIOLOGY",
+    "type": "HOMEWORK",
+    "score": 94
+  },
+  {
+    "id": "88bc6b83-880c-43cc-a949-5d6436e554b9",
+    "studentId": "5219156b-7269-440c-bbbd-b2b9fdc91d4c",
+    "teacherId": "c1d1ab5f-cc77-4814-8e20-ee6ff07873d2",
+    "subject": "BIOLOGY",
+    "type": "QUIZ",
+    "score": 89
+  },
+  {
+    "id": "1b57569e-5a3d-4110-8e01-5061e0dc1d83",
+    "studentId": "5219156b-7269-440c-bbbd-b2b9fdc91d4c",
+    "teacherId": "c1d1ab5f-cc77-4814-8e20-ee6ff07873d2",
+    "subject": "BIOLOGY",
+    "type": "EXAM",
+    "score": 81
+  },
+  {
+    "id": "78f9b6f2-e84a-4e5c-b5e6-41f16e8556e7",
+    "studentId": "e7f8220e-a534-4a2e-b495-9ec0c4b67306",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "HOMEWORK",
+    "score": 87
+  },
+  {
+    "id": "cfb7c7f3-edc7-4fa7-893d-5941bc614de0",
+    "studentId": "e7f8220e-a534-4a2e-b495-9ec0c4b67306",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "QUIZ",
+    "score": 97
+  },
+  {
+    "id": "4fa7e7c1-8d2b-4ee2-bf0f-49126b40d522",
+    "studentId": "e7f8220e-a534-4a2e-b495-9ec0c4b67306",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "EXAM",
+    "score": 99
+  },
+  {
+    "id": "32aa029d-ff7e-400a-a9c0-06902b6daedc",
+    "studentId": "6e7511f2-5929-46bd-b8bb-4562f7ff2287",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "HOMEWORK",
+    "score": 74
+  },
+  {
+    "id": "948ced1b-3aa8-4731-974b-5dfb0a70e420",
+    "studentId": "6e7511f2-5929-46bd-b8bb-4562f7ff2287",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "QUIZ",
+    "score": 85
+  },
+  {
+    "id": "10853024-9866-4dfc-9b50-b0e5144d2549",
+    "studentId": "6e7511f2-5929-46bd-b8bb-4562f7ff2287",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "EXAM",
+    "score": 80
+  },
+  {
+    "id": "78f265c0-74d1-40fc-834e-4395fc7a9c98",
+    "studentId": "310c4a09-00be-464d-8fef-47cf1b9fd637",
+    "teacherId": "9ccd39f8-7bc3-4c73-82bb-57599ddfdaa7",
+    "subject": "CHEMISTRY",
+    "type": "HOMEWORK",
+    "score": 76
+  },
+  {
+    "id": "8b762dd0-eae8-4f28-a887-e5808fb59bf1",
+    "studentId": "310c4a09-00be-464d-8fef-47cf1b9fd637",
+    "teacherId": "9ccd39f8-7bc3-4c73-82bb-57599ddfdaa7",
+    "subject": "CHEMISTRY",
+    "type": "QUIZ",
+    "score": 95
+  },
+  {
+    "id": "ebe3c184-0813-4d97-8100-cfea4d2296e7",
+    "studentId": "310c4a09-00be-464d-8fef-47cf1b9fd637",
+    "teacherId": "9ccd39f8-7bc3-4c73-82bb-57599ddfdaa7",
+    "subject": "CHEMISTRY",
+    "type": "EXAM",
+    "score": 82
+  },
+  {
+    "id": "3e6e2e2a-97f1-4809-a411-54da018d8e51",
+    "studentId": "7c12a98c-8c6c-464f-983e-ae5ee8c19e9f",
+    "teacherId": "c1d1ab5f-cc77-4814-8e20-ee6ff07873d2",
+    "subject": "BIOLOGY",
+    "type": "HOMEWORK",
+    "score": 74
+  },
+  {
+    "id": "83f840b3-feb8-4720-8b60-a8808c6fd5ba",
+    "studentId": "7c12a98c-8c6c-464f-983e-ae5ee8c19e9f",
+    "teacherId": "c1d1ab5f-cc77-4814-8e20-ee6ff07873d2",
+    "subject": "BIOLOGY",
+    "type": "QUIZ",
+    "score": 90
+  },
+  {
+    "id": "77051645-24cc-455a-9e81-90349a9a5ba9",
+    "studentId": "7c12a98c-8c6c-464f-983e-ae5ee8c19e9f",
+    "teacherId": "c1d1ab5f-cc77-4814-8e20-ee6ff07873d2",
+    "subject": "BIOLOGY",
+    "type": "EXAM",
+    "score": 98
+  },
+  {
+    "id": "8d3d8284-abab-4745-b42f-95da1ce933e8",
+    "studentId": "7f34a87d-1cdb-4faa-a802-c6f1ef023d4c",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "HOMEWORK",
+    "score": 82
+  },
+  {
+    "id": "db129f4d-1b30-4787-bd69-a22807c3643e",
+    "studentId": "7f34a87d-1cdb-4faa-a802-c6f1ef023d4c",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "QUIZ",
+    "score": 97
+  },
+  {
+    "id": "3b079569-6397-430f-8735-484a79606fdf",
+    "studentId": "7f34a87d-1cdb-4faa-a802-c6f1ef023d4c",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "EXAM",
+    "score": 96
+  },
+  {
+    "id": "b4a2838a-628f-4729-8825-b1e19c133de1",
+    "studentId": "b750f43a-3dd5-4c5c-b2fe-257174001902",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "HOMEWORK",
+    "score": 86
+  },
+  {
+    "id": "f47a2687-eee3-42aa-8877-1a5ecc96ca5d",
+    "studentId": "b750f43a-3dd5-4c5c-b2fe-257174001902",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "QUIZ",
+    "score": 84
+  },
+  {
+    "id": "4fe77200-bb44-4524-8cff-807f705f3cd1",
+    "studentId": "b750f43a-3dd5-4c5c-b2fe-257174001902",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "EXAM",
+    "score": 85
+  },
+  {
+    "id": "3c5d6043-1d4f-4f5e-8155-6bcb438d42b3",
+    "studentId": "bcd84186-ebbe-4201-9206-feadae3f2c4c",
+    "teacherId": "c1d1ab5f-cc77-4814-8e20-ee6ff07873d2",
+    "subject": "BIOLOGY",
+    "type": "HOMEWORK",
+    "score": 95
+  },
+  {
+    "id": "691973cb-43cb-4da4-9f51-d7f0485f09fc",
+    "studentId": "bcd84186-ebbe-4201-9206-feadae3f2c4c",
+    "teacherId": "c1d1ab5f-cc77-4814-8e20-ee6ff07873d2",
+    "subject": "BIOLOGY",
+    "type": "QUIZ",
+    "score": 71
+  },
+  {
+    "id": "e0bf8065-2f8c-4cca-b0b6-daa7283e2de3",
+    "studentId": "bcd84186-ebbe-4201-9206-feadae3f2c4c",
+    "teacherId": "c1d1ab5f-cc77-4814-8e20-ee6ff07873d2",
+    "subject": "BIOLOGY",
+    "type": "EXAM",
+    "score": 83
+  },
+  {
+    "id": "17cb44f5-824a-45fc-a098-702705e5b976",
+    "studentId": "55462603-575d-40d2-a915-1f913908012c",
+    "teacherId": "9ccd39f8-7bc3-4c73-82bb-57599ddfdaa7",
+    "subject": "CHEMISTRY",
+    "type": "HOMEWORK",
+    "score": 82
+  },
+  {
+    "id": "862479f8-141f-4b22-bf79-9606d6bbe6bd",
+    "studentId": "55462603-575d-40d2-a915-1f913908012c",
+    "teacherId": "9ccd39f8-7bc3-4c73-82bb-57599ddfdaa7",
+    "subject": "CHEMISTRY",
+    "type": "QUIZ",
+    "score": 96
+  },
+  {
+    "id": "b8a18d34-b6c6-44c8-89c0-dcf0e005bc8e",
+    "studentId": "55462603-575d-40d2-a915-1f913908012c",
+    "teacherId": "9ccd39f8-7bc3-4c73-82bb-57599ddfdaa7",
+    "subject": "CHEMISTRY",
+    "type": "EXAM",
+    "score": 93
+  },
+  {
+    "id": "5d0d79dc-6853-473c-9982-585c324c8960",
+    "studentId": "950c7bb9-52a2-4421-8355-bad4f507a233",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "HOMEWORK",
+    "score": 94
+  },
+  {
+    "id": "b0b64070-68dd-4ed1-8876-e5a102238a7e",
+    "studentId": "950c7bb9-52a2-4421-8355-bad4f507a233",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "QUIZ",
+    "score": 91
+  },
+  {
+    "id": "6b344dc6-2570-461e-ad3f-887e8ca0b8f6",
+    "studentId": "950c7bb9-52a2-4421-8355-bad4f507a233",
+    "teacherId": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "subject": "PROGRAMMING",
+    "type": "EXAM",
+    "score": 80
+  },
+  {
+    "id": "9e71cb81-c3c3-4847-87cb-e93362e593fa",
+    "studentId": "cad78ce6-8892-4d7c-8252-4fccb813c83e",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "HOMEWORK",
+    "score": 98
+  },
+  {
+    "id": "a538c1b2-54bc-4798-8dd8-3119d9841770",
+    "studentId": "cad78ce6-8892-4d7c-8252-4fccb813c83e",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "QUIZ",
+    "score": 93
+  },
+  {
+    "id": "8db38e96-2f4e-4a1b-abdf-6b109ae8484c",
+    "studentId": "cad78ce6-8892-4d7c-8252-4fccb813c83e",
+    "teacherId": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "subject": "MATH",
+    "type": "EXAM",
+    "score": 75
+  }
+]

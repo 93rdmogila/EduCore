@@ -1,0 +1,768 @@
+[
+  {
+    "id": "044ecab7-97a5-4892-ba07-78d4d9cd098a",
+    "name": "Ayan Bek",
+    "type": "ADMINISTRATOR"
+  },
+  {
+    "id": "76a02958-bffc-4cf7-8ab1-a91e95083aa8",
+    "name": "Aruzhan Saparova",
+    "type": "TEACHER",
+    "specialization": "MATH"
+  },
+  {
+    "id": "9535629a-a3cf-4992-87de-18050d0da10a",
+    "name": "Daniyar Toktarov",
+    "type": "TEACHER",
+    "specialization": "PROGRAMMING"
+  },
+  {
+    "id": "5e9ef897-c776-429f-a3a1-bb1a8be4834a",
+    "name": "Nursultan Zhaksybekov",
+    "type": "STUDENT",
+    "className": "SE-2526",
+    "parentContact": "+77011234567",
+    "address": "Almaty",
+    "dateOfBirth": "2008-04-12",
+    "subjects": [
+      "MATH",
+      "PROGRAMMING"
+    ]
+  },
+  {
+    "id": "5c10956d-b9ac-4b31-b0b6-baa99547a4f9",
+    "name": "Aigerim Sadykova",
+    "type": "STUDENT",
+    "className": "SE-2526",
+    "parentContact": "+77017654321",
+    "address": "Almaty",
+    "dateOfBirth": "2008-08-23",
+    "subjects": [
+      "MATH"
+    ]
+  },
+  {
+    "id": "87542792-deb4-4475-a6a7-97da4507256b",
+    "name": "Dias Orazbayev",
+    "type": "STUDENT",
+    "className": "CS-2526",
+    "parentContact": "+77015551234",
+    "address": "Astana",
+    "dateOfBirth": "2007-11-05",
+    "subjects": [
+      "PROGRAMMING"
+    ]
+  },
+  {
+    "id": "9ccd39f8-7bc3-4c73-82bb-57599ddfdaa7",
+    "name": "Madina Tulegenova",
+    "type": "TEACHER",
+    "specialization": "CHEMISTRY"
+  },
+  {
+    "id": "c1d1ab5f-cc77-4814-8e20-ee6ff07873d2",
+    "name": "Bekarys Bekzhanov",
+    "type": "TEACHER",
+    "specialization": "BIOLOGY"
+  },
+  {
+    "id": "345293e2-124a-4409-9a62-4a93c2241357",
+    "name": "Olzhas Kadyrov",
+    "type": "STUDENT",
+    "className": "10B",
+    "parentContact": "+77020000001",
+    "address": "Almaty",
+    "dateOfBirth": "2010-10-10",
+    "subjects": [
+      "CHEMISTRY",
+      "PHYSICS",
+      "BIOLOGY"
+    ]
+  },
+  {
+    "id": "9f2d9374-00c8-484a-885e-41f4aab14ed3",
+    "name": "Temirlan Alimzhanov",
+    "type": "STUDENT",
+    "className": "8B",
+    "parentContact": "+77020000002",
+    "address": "Almaty",
+    "dateOfBirth": "2009-01-18",
+    "subjects": [
+      "MATH",
+      "PHYSICS",
+      "BIOLOGY"
+    ]
+  },
+  {
+    "id": "49a76cb9-9094-44cc-9bdd-3ac45c139596",
+    "name": "Sanzhar Khamitov",
+    "type": "STUDENT",
+    "className": "8B",
+    "parentContact": "+77020000003",
+    "address": "Kostanay",
+    "dateOfBirth": "2007-10-19",
+    "subjects": [
+      "CHEMISTRY",
+      "MATH",
+      "PHYSICS"
+    ]
+  },
+  {
+    "id": "c3f90b48-555c-4aad-a805-71fcfa9bec44",
+    "name": "Zhanar Kadyrova",
+    "type": "STUDENT",
+    "className": "11A",
+    "parentContact": "+77020000004",
+    "address": "Pavlodar",
+    "dateOfBirth": "2008-09-23",
+    "subjects": [
+      "BIOLOGY",
+      "MATH",
+      "PROGRAMMING"
+    ]
+  },
+  {
+    "id": "1c3c655f-17df-4339-be70-6cb7a20b488f",
+    "name": "Assem Bekturova",
+    "type": "STUDENT",
+    "className": "8A",
+    "parentContact": "+77020000005",
+    "address": "Aktobe",
+    "dateOfBirth": "2009-10-02",
+    "subjects": [
+      "PROGRAMMING",
+      "MATH",
+      "BIOLOGY"
+    ]
+  },
+  {
+    "id": "252631c9-ef9b-4309-9737-e76ff9bc54f8",
+    "name": "Kenzhebek Orazbayev",
+    "type": "STUDENT",
+    "className": "11B",
+    "parentContact": "+77020000006",
+    "address": "Karaganda",
+    "dateOfBirth": "2009-03-02",
+    "subjects": [
+      "PHYSICS",
+      "PROGRAMMING",
+      "CHEMISTRY"
+    ]
+  },
+  {
+    "id": "546fe085-9c18-4ac6-a79d-97e864007222",
+    "name": "Alua Duisenova",
+    "type": "STUDENT",
+    "className": "9B",
+    "parentContact": "+77020000007",
+    "address": "Taraz",
+    "dateOfBirth": "2007-12-17",
+    "subjects": [
+      "CHEMISTRY",
+      "BIOLOGY",
+      "PHYSICS"
+    ]
+  },
+  {
+    "id": "ea6532ca-16b3-4e22-ae9b-c89dd9ede1eb",
+    "name": "Zhansaya Saparova",
+    "type": "STUDENT",
+    "className": "10B",
+    "parentContact": "+77020000008",
+    "address": "Pavlodar",
+    "dateOfBirth": "2007-06-16",
+    "subjects": [
+      "BIOLOGY",
+      "MATH",
+      "PHYSICS"
+    ]
+  },
+  {
+    "id": "2c10eb9b-38eb-4b6c-b8c1-6bda874e51f7",
+    "name": "Akbota Khamitova",
+    "type": "STUDENT",
+    "className": "10B",
+    "parentContact": "+77020000009",
+    "address": "Almaty",
+    "dateOfBirth": "2008-12-10",
+    "subjects": [
+      "MATH",
+      "PHYSICS",
+      "CHEMISTRY"
+    ]
+  },
+  {
+    "id": "ea090db6-2d74-482d-a38b-72adda48cc95",
+    "name": "Bakhyt Karabaev",
+    "type": "STUDENT",
+    "className": "10A",
+    "parentContact": "+77020000010",
+    "address": "Almaty",
+    "dateOfBirth": "2010-09-13",
+    "subjects": [
+      "MATH",
+      "PHYSICS",
+      "BIOLOGY"
+    ]
+  },
+  {
+    "id": "9c2770cf-bcbc-4740-a90e-029c95332b1d",
+    "name": "Amanzhol Ermekov",
+    "type": "STUDENT",
+    "className": "11A",
+    "parentContact": "+77020000011",
+    "address": "Kostanay",
+    "dateOfBirth": "2009-12-08",
+    "subjects": [
+      "PROGRAMMING",
+      "PHYSICS",
+      "CHEMISTRY"
+    ]
+  },
+  {
+    "id": "45f64b1e-f72a-410b-bb80-e7076a402758",
+    "name": "Dastan Akhmetov",
+    "type": "STUDENT",
+    "className": "9A",
+    "parentContact": "+77020000012",
+    "address": "Karaganda",
+    "dateOfBirth": "2009-12-16",
+    "subjects": [
+      "CHEMISTRY",
+      "BIOLOGY",
+      "MATH"
+    ]
+  },
+  {
+    "id": "d91e3dd9-4af4-40bb-ab5a-b1ecb333657c",
+    "name": "Anel Beketova",
+    "type": "STUDENT",
+    "className": "10B",
+    "parentContact": "+77020000013",
+    "address": "Aktobe",
+    "dateOfBirth": "2008-04-02",
+    "subjects": [
+      "CHEMISTRY",
+      "BIOLOGY",
+      "PHYSICS"
+    ]
+  },
+  {
+    "id": "eabb9226-63cd-425d-9c83-ae7b26310342",
+    "name": "Ilyas Kenesov",
+    "type": "STUDENT",
+    "className": "10A",
+    "parentContact": "+77020000014",
+    "address": "Karaganda",
+    "dateOfBirth": "2009-06-01",
+    "subjects": [
+      "CHEMISTRY",
+      "PROGRAMMING",
+      "BIOLOGY"
+    ]
+  },
+  {
+    "id": "d9f76413-9a7f-4669-84d0-31498d47c311",
+    "name": "Kairat Amanov",
+    "type": "STUDENT",
+    "className": "8A",
+    "parentContact": "+77020000015",
+    "address": "Karaganda",
+    "dateOfBirth": "2007-03-10",
+    "subjects": [
+      "PHYSICS",
+      "MATH",
+      "BIOLOGY"
+    ]
+  },
+  {
+    "id": "77fda179-ee58-48b2-84ff-ee9b96b1fb60",
+    "name": "Aizhan Alimzhanova",
+    "type": "STUDENT",
+    "className": "8A",
+    "parentContact": "+77020000016",
+    "address": "Taraz",
+    "dateOfBirth": "2010-08-11",
+    "subjects": [
+      "PROGRAMMING",
+      "BIOLOGY",
+      "MATH"
+    ]
+  },
+  {
+    "id": "089a81c4-4361-416c-97bd-6cc2b273a2d5",
+    "name": "Baurzhan Nurgaliyev",
+    "type": "STUDENT",
+    "className": "9A",
+    "parentContact": "+77020000017",
+    "address": "Taraz",
+    "dateOfBirth": "2008-04-16",
+    "subjects": [
+      "CHEMISTRY",
+      "PHYSICS",
+      "MATH"
+    ]
+  },
+  {
+    "id": "b1d3fe15-0d75-4c99-8352-e20a0ab5aee1",
+    "name": "Asylbek Saparov",
+    "type": "STUDENT",
+    "className": "10A",
+    "parentContact": "+77020000018",
+    "address": "Almaty",
+    "dateOfBirth": "2007-05-27",
+    "subjects": [
+      "PHYSICS",
+      "CHEMISTRY",
+      "MATH"
+    ]
+  },
+  {
+    "id": "3a8c0505-d655-4fff-915e-a4ea5e1b2abb",
+    "name": "Rauan Kaliev",
+    "type": "STUDENT",
+    "className": "11A",
+    "parentContact": "+77020000019",
+    "address": "Taraz",
+    "dateOfBirth": "2010-07-24",
+    "subjects": [
+      "CHEMISTRY",
+      "PROGRAMMING",
+      "PHYSICS"
+    ]
+  },
+  {
+    "id": "f9958f8c-503d-4cce-a015-79c6147fcb7d",
+    "name": "Kamila Mukanova",
+    "type": "STUDENT",
+    "className": "8B",
+    "parentContact": "+77020000020",
+    "address": "Aktobe",
+    "dateOfBirth": "2010-12-01",
+    "subjects": [
+      "CHEMISTRY",
+      "PHYSICS",
+      "PROGRAMMING"
+    ]
+  },
+  {
+    "id": "5422641d-f7f7-4cc6-b263-7d5e198d5622",
+    "name": "Sabina Kasymova",
+    "type": "STUDENT",
+    "className": "8A",
+    "parentContact": "+77020000021",
+    "address": "Astana",
+    "dateOfBirth": "2008-10-07",
+    "subjects": [
+      "MATH",
+      "PROGRAMMING",
+      "BIOLOGY"
+    ]
+  },
+  {
+    "id": "0f37c2b1-41a6-4fa0-ba5a-8d373a64cd52",
+    "name": "Zhibek Nurgaliyeva",
+    "type": "STUDENT",
+    "className": "10B",
+    "parentContact": "+77020000022",
+    "address": "Taraz",
+    "dateOfBirth": "2009-06-22",
+    "subjects": [
+      "BIOLOGY",
+      "CHEMISTRY",
+      "MATH"
+    ]
+  },
+  {
+    "id": "b3aceb04-515a-4e90-aef3-d974b1322f89",
+    "name": "Arman Sadykov",
+    "type": "STUDENT",
+    "className": "10B",
+    "parentContact": "+77020000023",
+    "address": "Kostanay",
+    "dateOfBirth": "2007-01-20",
+    "subjects": [
+      "PROGRAMMING",
+      "BIOLOGY",
+      "MATH"
+    ]
+  },
+  {
+    "id": "59b7e6e6-7adb-4585-a4dc-acc57ad1b758",
+    "name": "Dana Esenova",
+    "type": "STUDENT",
+    "className": "10A",
+    "parentContact": "+77020000024",
+    "address": "Taraz",
+    "dateOfBirth": "2009-08-13",
+    "subjects": [
+      "BIOLOGY",
+      "MATH",
+      "PROGRAMMING"
+    ]
+  },
+  {
+    "id": "eb171074-ae5c-4a5b-98aa-7285ed54cb6c",
+    "name": "Madi Baizhanov",
+    "type": "STUDENT",
+    "className": "11B",
+    "parentContact": "+77020000025",
+    "address": "Almaty",
+    "dateOfBirth": "2008-07-03",
+    "subjects": [
+      "MATH",
+      "BIOLOGY",
+      "PROGRAMMING"
+    ]
+  },
+  {
+    "id": "5817d965-0a7e-4841-b6d8-1f28b147c8f6",
+    "name": "Bolat Iskakov",
+    "type": "STUDENT",
+    "className": "10A",
+    "parentContact": "+77020000026",
+    "address": "Kostanay",
+    "dateOfBirth": "2010-05-18",
+    "subjects": [
+      "PROGRAMMING",
+      "CHEMISTRY",
+      "PHYSICS"
+    ]
+  },
+  {
+    "id": "9818083f-7753-4f70-956d-c9bd73d95733",
+    "name": "Karina Akhmetova",
+    "type": "STUDENT",
+    "className": "11B",
+    "parentContact": "+77020000027",
+    "address": "Kostanay",
+    "dateOfBirth": "2008-03-09",
+    "subjects": [
+      "PHYSICS",
+      "CHEMISTRY",
+      "BIOLOGY"
+    ]
+  },
+  {
+    "id": "2f19841b-05b0-4b19-a154-681210630021",
+    "name": "Gulmira Iskakova",
+    "type": "STUDENT",
+    "className": "11B",
+    "parentContact": "+77020000028",
+    "address": "Astana",
+    "dateOfBirth": "2010-02-23",
+    "subjects": [
+      "BIOLOGY",
+      "MATH",
+      "CHEMISTRY"
+    ]
+  },
+  {
+    "id": "711dd070-56f2-41c4-984f-9698aa2bb472",
+    "name": "Alina Amanova",
+    "type": "STUDENT",
+    "className": "10A",
+    "parentContact": "+77020000029",
+    "address": "Almaty",
+    "dateOfBirth": "2007-01-28",
+    "subjects": [
+      "PROGRAMMING",
+      "BIOLOGY",
+      "PHYSICS"
+    ]
+  },
+  {
+    "id": "c6d7b027-9295-48b6-8904-2a7ca682f5c9",
+    "name": "Kanat Dautov",
+    "type": "STUDENT",
+    "className": "9A",
+    "parentContact": "+77020000030",
+    "address": "Aktobe",
+    "dateOfBirth": "2010-10-10",
+    "subjects": [
+      "MATH",
+      "PHYSICS",
+      "PROGRAMMING"
+    ]
+  },
+  {
+    "id": "1de1beee-6048-4238-9522-2593f8e27623",
+    "name": "Fariza Orazbayeva",
+    "type": "STUDENT",
+    "className": "9A",
+    "parentContact": "+77020000031",
+    "address": "Astana",
+    "dateOfBirth": "2008-01-22",
+    "subjects": [
+      "PHYSICS",
+      "MATH",
+      "BIOLOGY"
+    ]
+  },
+  {
+    "id": "eab82079-d3c8-493b-a13b-9bf068833bc1",
+    "name": "Zarina Dautova",
+    "type": "STUDENT",
+    "className": "8A",
+    "parentContact": "+77020000032",
+    "address": "Almaty",
+    "dateOfBirth": "2009-04-26",
+    "subjects": [
+      "CHEMISTRY",
+      "PHYSICS",
+      "MATH"
+    ]
+  },
+  {
+    "id": "50815efa-dcde-493e-ac91-9cfa82fb48e5",
+    "name": "Inkar Sadykova",
+    "type": "STUDENT",
+    "className": "9A",
+    "parentContact": "+77020000033",
+    "address": "Kostanay",
+    "dateOfBirth": "2007-04-22",
+    "subjects": [
+      "MATH",
+      "BIOLOGY",
+      "PROGRAMMING"
+    ]
+  },
+  {
+    "id": "e897cc86-a22a-4ebd-94d3-56940edd7394",
+    "name": "Alibek Imanov",
+    "type": "STUDENT",
+    "className": "8A",
+    "parentContact": "+77020000034",
+    "address": "Astana",
+    "dateOfBirth": "2009-08-13",
+    "subjects": [
+      "MATH",
+      "PROGRAMMING",
+      "PHYSICS"
+    ]
+  },
+  {
+    "id": "70ea4912-fcfc-4401-976a-c8cd68dd8f8e",
+    "name": "Nazerke Ospanova",
+    "type": "STUDENT",
+    "className": "11B",
+    "parentContact": "+77020000035",
+    "address": "Kostanay",
+    "dateOfBirth": "2007-05-04",
+    "subjects": [
+      "CHEMISTRY",
+      "PHYSICS",
+      "MATH"
+    ]
+  },
+  {
+    "id": "d84614c3-0b0d-4ff2-8fa5-540c4e3895bd",
+    "name": "Saule Imanova",
+    "type": "STUDENT",
+    "className": "10B",
+    "parentContact": "+77020000036",
+    "address": "Kostanay",
+    "dateOfBirth": "2008-10-12",
+    "subjects": [
+      "CHEMISTRY",
+      "MATH",
+      "BIOLOGY"
+    ]
+  },
+  {
+    "id": "b6f94f0a-3ce0-42df-92a5-b43772d5d5cb",
+    "name": "Elmira Ermekova",
+    "type": "STUDENT",
+    "className": "8B",
+    "parentContact": "+77020000037",
+    "address": "Karaganda",
+    "dateOfBirth": "2008-03-23",
+    "subjects": [
+      "PROGRAMMING",
+      "MATH",
+      "CHEMISTRY"
+    ]
+  },
+  {
+    "id": "d2750741-a08b-4ace-a84e-7272a8a3f9a8",
+    "name": "Shyngys Duisenov",
+    "type": "STUDENT",
+    "className": "11A",
+    "parentContact": "+77020000038",
+    "address": "Taraz",
+    "dateOfBirth": "2008-06-24",
+    "subjects": [
+      "BIOLOGY",
+      "PHYSICS",
+      "PROGRAMMING"
+    ]
+  },
+  {
+    "id": "156d0180-d9d6-4c43-ac07-8a2eb00cde32",
+    "name": "Aisultan Kasymov",
+    "type": "STUDENT",
+    "className": "11B",
+    "parentContact": "+77020000039",
+    "address": "Pavlodar",
+    "dateOfBirth": "2009-10-01",
+    "subjects": [
+      "CHEMISTRY",
+      "BIOLOGY",
+      "PHYSICS"
+    ]
+  },
+  {
+    "id": "5219156b-7269-440c-bbbd-b2b9fdc91d4c",
+    "name": "Aidana Kalieva",
+    "type": "STUDENT",
+    "className": "11B",
+    "parentContact": "+77020000040",
+    "address": "Shymkent",
+    "dateOfBirth": "2009-03-18",
+    "subjects": [
+      "BIOLOGY",
+      "PROGRAMMING",
+      "CHEMISTRY"
+    ]
+  },
+  {
+    "id": "e7f8220e-a534-4a2e-b495-9ec0c4b67306",
+    "name": "Askar Bekturov",
+    "type": "STUDENT",
+    "className": "9A",
+    "parentContact": "+77020000041",
+    "address": "Pavlodar",
+    "dateOfBirth": "2009-07-18",
+    "subjects": [
+      "CHEMISTRY",
+      "MATH",
+      "PHYSICS"
+    ]
+  },
+  {
+    "id": "6e7511f2-5929-46bd-b8bb-4562f7ff2287",
+    "name": "Miras Kambarov",
+    "type": "STUDENT",
+    "className": "9A",
+    "parentContact": "+77020000042",
+    "address": "Aktobe",
+    "dateOfBirth": "2009-04-18",
+    "subjects": [
+      "PHYSICS",
+      "PROGRAMMING",
+      "CHEMISTRY"
+    ]
+  },
+  {
+    "id": "310c4a09-00be-464d-8fef-47cf1b9fd637",
+    "name": "Alisher Beketov",
+    "type": "STUDENT",
+    "className": "11B",
+    "parentContact": "+77020000043",
+    "address": "Almaty",
+    "dateOfBirth": "2007-07-01",
+    "subjects": [
+      "CHEMISTRY",
+      "PROGRAMMING",
+      "BIOLOGY"
+    ]
+  },
+  {
+    "id": "7c12a98c-8c6c-464f-983e-ae5ee8c19e9f",
+    "name": "Gulnaz Kenesova",
+    "type": "STUDENT",
+    "className": "8B",
+    "parentContact": "+77020000044",
+    "address": "Kostanay",
+    "dateOfBirth": "2008-08-23",
+    "subjects": [
+      "CHEMISTRY",
+      "MATH",
+      "BIOLOGY"
+    ]
+  },
+  {
+    "id": "7f34a87d-1cdb-4faa-a802-c6f1ef023d4c",
+    "name": "Amina Karabaeva",
+    "type": "STUDENT",
+    "className": "8A",
+    "parentContact": "+77020000045",
+    "address": "Taraz",
+    "dateOfBirth": "2009-11-21",
+    "subjects": [
+      "MATH",
+      "PROGRAMMING",
+      "CHEMISTRY"
+    ]
+  },
+  {
+    "id": "b750f43a-3dd5-4c5c-b2fe-257174001902",
+    "name": "Eldar Esenov",
+    "type": "STUDENT",
+    "className": "8A",
+    "parentContact": "+77020000046",
+    "address": "Taraz",
+    "dateOfBirth": "2010-11-07",
+    "subjects": [
+      "PROGRAMMING",
+      "PHYSICS",
+      "MATH"
+    ]
+  },
+  {
+    "id": "bcd84186-ebbe-4201-9206-feadae3f2c4c",
+    "name": "Dinara Kambarova",
+    "type": "STUDENT",
+    "className": "11A",
+    "parentContact": "+77020000047",
+    "address": "Kostanay",
+    "dateOfBirth": "2009-01-28",
+    "subjects": [
+      "PHYSICS",
+      "MATH",
+      "BIOLOGY"
+    ]
+  },
+  {
+    "id": "55462603-575d-40d2-a915-1f913908012c",
+    "name": "Aray Baizhanova",
+    "type": "STUDENT",
+    "className": "10A",
+    "parentContact": "+77020000048",
+    "address": "Taraz",
+    "dateOfBirth": "2007-10-16",
+    "subjects": [
+      "MATH",
+      "CHEMISTRY",
+      "PROGRAMMING"
+    ]
+  },
+  {
+    "id": "950c7bb9-52a2-4421-8355-bad4f507a233",
+    "name": "Aibek Mukanov",
+    "type": "STUDENT",
+    "className": "8B",
+    "parentContact": "+77020000049",
+    "address": "Pavlodar",
+    "dateOfBirth": "2008-06-03",
+    "subjects": [
+      "PHYSICS",
+      "PROGRAMMING",
+      "CHEMISTRY"
+    ]
+  },
+  {
+    "id": "cad78ce6-8892-4d7c-8252-4fccb813c83e",
+    "name": "Zhandos Ospanov",
+    "type": "STUDENT",
+    "className": "10A",
+    "parentContact": "+77020000050",
+    "address": "Aktobe",
+    "dateOfBirth": "2010-12-13",
+    "subjects": [
+      "MATH",
+      "PROGRAMMING",
+      "CHEMISTRY"
+    ]
+  }
+]
