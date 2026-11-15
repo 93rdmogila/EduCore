@@ -127,6 +127,26 @@ public class SchoolFacade {
         }
     }
 
+	public List<Student> getStudents(Session session) {
+		accessGuard.requirePermission(session, Permission.VIEW_ANY_GRADES);
+		return userRepository.findAllStudents();
+	}
+
+	public List<Teacher> getTeachers(Session session) {
+		accessGuard.requirePermission(session, Permission.REGISTER_USERS);
+		return userRepository.findAllTeachers();
+	}
+
+	public String getTeacherSubject(Session session) {
+		accessGuard.requirePermission(session, Permission.ADD_GRADE);
+		User user = userRepository.findUserById(session.getUserId())
+				.orElseThrow(() -> new SecurityException("User not found"));
+		if (!(user instanceof Teacher)) {
+			throw new SecurityException("Teacher session required");
+		}
+		return ((Teacher) user).getSpecialization().name();
+	}
+
 	public Session login(String email, String password){
 		return authService.login(email, password);
 	}
