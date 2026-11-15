@@ -67,14 +67,7 @@ public class GradeService {
 
         gradeRepository.save(grade);
 
-        if (subscribedStudents.add(grade.getStudentId())) {
-            gradePublisher.subscribe(
-                    new StudentNotificationObserver(
-                            grade.getStudentId(),
-                            notificationRepository
-                    )
-            );
-        }
+        ensureSubscribed(grade.getStudentId());
 
         gradePublisher.notifyGradeAdded(grade);
     }
@@ -142,4 +135,28 @@ public class GradeService {
         return userRepository.findUserById(session.getUserId())
                 .orElseThrow(() -> new SecurityException("User not found"));
     }
+
+	public void updateGrade(Session session, String gradeId, int newScore){
+		User user = getCurrentUser(session);
+		if(session.getRole() != UserRole.TEACHER || !(user instanceof Teacher)){
+			throw new SecurityException("Only teachers can update grades.");
+		}
+		Validator.requireNonBlank(gradeId, "Grade id");
+		Grade old = gradeRepository.findById(gradeId).orElseThrow(() -> new IllegalArgumentException("Grade not found."));
+		if(!session.getUserId().equals(old.getTeacherId())){
+			throw new SecurityException("Only the teacher who set the grade can change it.");
+		}
+		if(newScore == old.getScore()){
+			return;
+		}
+		Grade updated = new Grade(old.getId(), old.getStudentId(), old.getTeacherId(), old.getSubject(), old.getType(), newScore);
+		gradeRepository.update(updated);
+		ensureSubscribed(updated.getStudentId());
+		gradePublisher.notifyGradeUpdated(old, updated);
+	}
+	private void ensureSubscribed(String studentId){
+		if(subscribedStudents.add(studentId)){
+			gradePublisher.subscribe(new StudentNotificationObserver(studentId, notificationRepository));
+		}
+	}
 }

@@ -5,5 +5,6 @@ public enum Permission {
     VIEW_ANY_GRADES,
     VIEW_NOTIFICATIONS,
     ADD_GRADE,
-    REGISTER_USERS
+    REGISTER_USERS,
+	UPDATE_GRADE
 }

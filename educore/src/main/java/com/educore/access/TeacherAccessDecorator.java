@@ -9,6 +9,7 @@ public class TeacherAccessDecorator extends AccessDecorator{
     public boolean hasPermission(Permission permission) {
         return permission == Permission.ADD_GRADE
                 || permission == Permission.VIEW_ANY_GRADES
-                || super.hasPermission(permission);
+                || super.hasPermission(permission)
+				|| permission == Permission.UPDATE_GRADE;
     }
 }

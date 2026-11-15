@@ -25,11 +25,12 @@ class AcademicModuleTest {
     private Session teacherSession;
     private Session alexSession;
     private Session miaSession;
+	private GradeRepository gradeRepository;
 
     @BeforeEach
     void setUp() {
-        UserRepository users = new InMemoryUserRepository();
-
+		UserRepository users = new InMemoryUserRepository();
+		gradeRepository = new InMemoryGradeRepository();
 		PasswordHasher hasher = new Pbkdf2PasswordHasher();
 		String hash = hasher.hash("secret123");
 		StudentFactory studentFactory = new StudentFactory();
@@ -56,7 +57,7 @@ class AcademicModuleTest {
                 "t1", "kim@mail.com", hash
         ));
 
-        service = new GradeService(users, new InMemoryGradeRepository(), new InMemoryNotificationRepository());
+        service = new GradeService(users, gradeRepository, new InMemoryNotificationRepository());
 
 		AuthService auth = new AuthService(users, hasher);
 		teacherSession = auth.login("kim@mail.com", "secret123");
@@ -238,15 +239,54 @@ class AcademicModuleTest {
     }
 
 	@Test
+	void testTeacherUpdatesGradeAndStudentIsNotified() {
+	    service.addGrade(teacherSession, grade("g1", "s1", GradeType.EXAM, 80));
+	    service.updateGrade(teacherSession, "g1", 95);
+
+	    assertEquals(95, service.getGrades(alexSession, "s1").get(0).getScore());
+	    assertEquals(2, service.getNotifications(alexSession).size());   // «добавлена» + «изменена»
+	}
+
+	@Test
+	void testStudentCannotUpdateGrade() {
+	    service.addGrade(teacherSession, grade("g1", "s1", GradeType.EXAM, 80));
+	    assertThrows(SecurityException.class, () -> service.updateGrade(alexSession, "g1", 100));
+	}
+
+	@Test
+	void testTeacherCannotUpdateAnotherTeachersGrade() {
+	    gradeRepository.save(new Grade("g9", "s1", "t2", "MATH", GradeType.EXAM, 70));
+	    assertThrows(SecurityException.class, () -> service.updateGrade(teacherSession, "g9", 100));
+	}
+
+	@Test
+	void testUpdateUnknownGradeFails() {
+	    assertThrows(IllegalArgumentException.class, () -> service.updateGrade(teacherSession, "nope", 90));
+	}
+
+	@Test
+	void testInvalidScoreDoesNotChangeGrade() {
+	    service.addGrade(teacherSession, grade("g1", "s1", GradeType.EXAM, 80));
+	    assertThrows(IllegalArgumentException.class, () -> service.updateGrade(teacherSession, "g1", 150));
+	    assertEquals(80, service.getGrades(alexSession, "s1").get(0).getScore());
+	}
+
+	@Test
+	void testSameScoreDoesNotCreateNotification() {
+	    service.addGrade(teacherSession, grade("g1", "s1", GradeType.EXAM, 80));
+	    service.updateGrade(teacherSession, "g1", 80);
+	    assertEquals(1, service.getNotifications(alexSession).size());
+	}
+	@Test
 	void testRepositoryUpdateReplacesGrade() {
 	    GradeRepository repo = new InMemoryGradeRepository();
 	    repo.save(grade("g1", "s1", GradeType.EXAM, 80));
 	    repo.update(grade("g1", "s1", GradeType.EXAM, 95));
-	
+
 	    assertEquals(95, repo.findById("g1").orElseThrow().getScore());
 	    assertEquals(1, repo.findByStudentId("s1").size());   // не добавилась вторая, а заменилась
 	}
-	
+
 	@Test
 	void testRepositoryUpdateUnknownGradeFails() {
 	    GradeRepository repo = new InMemoryGradeRepository();

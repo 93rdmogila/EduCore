@@ -84,6 +84,10 @@ public class SchoolFacade {
         gradeService.addGrade(session, grade);
     }
 
+	public void updateGrade(Session session, String gradeId, int newScore){
+		accessGuard.requirePermission(session, Permission.UPDATE_GRADE);
+		gradeService.updateGrade(session, gradeId, newScore);
+	}
     public List<Grade> getGrades(Session session, String studentId) {
         accessGuard.requireGradeAccess(session, studentId);
         return gradeService.getGrades(session, studentId);
