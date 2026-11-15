@@ -4,17 +4,21 @@ import com.educore.academic.model.*;
 import com.educore.academic.repository.*;
 import com.educore.academic.service.GradeService;
 import com.educore.academic.strategy.*;
+import com.educore.user.auth.AuthService;
+import com.educore.user.auth.PasswordHasher;
+import com.educore.user.auth.Pbkdf2PasswordHasher;
 import com.educore.user.auth.Session;
 import com.educore.user.factory.StudentFactory;
 import com.educore.user.factory.TeacherFactory;
 import com.educore.user.model.TeacherSpecialization;
-import com.educore.user.model.UserRole;
 import com.educore.user.repository.InMemoryUserRepository;
 import com.educore.user.repository.UserRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
+
+import java.util.List;
 
 class AcademicModuleTest {
     private GradeService service;
@@ -26,27 +30,38 @@ class AcademicModuleTest {
     void setUp() {
         UserRepository users = new InMemoryUserRepository();
 
-        users.saveUser(new StudentFactory().createStudent(
+		PasswordHasher hasher = new Pbkdf2PasswordHasher();
+		String hash = hasher.hash("secret123");
+		StudentFactory studentFactory = new StudentFactory();
+		TeacherFactory teacherFactory = new TeacherFactory();
+
+        users.saveUser(studentFactory.createStudent(
                 "s1", "Alex", "SE-2526", "+77001234567"
         ));
+        users.saveAccount(studentFactory.createAccount(
+                "s1", "alex@mail.com", hash
+        ));
 
-        users.saveUser(new StudentFactory().createStudent(
+        users.saveUser(studentFactory.createStudent(
                 "s2", "Mia", "SE-2526", "+77007654321"
         ));
-
-        users.saveUser(new TeacherFactory().createTeacher(
-                "t1", "Kim", TeacherSpecialization.MATH
+        users.saveAccount(studentFactory.createAccount(
+                "s2", "mia@mail.com", hash
         ));
 
-        service = new GradeService(
-                users,
-                new InMemoryGradeRepository(),
-                new InMemoryNotificationRepository()
-        );
+        users.saveUser(teacherFactory.createTeacher(
+                "t1", "Kim", TeacherSpecialization.MATH
+        ));
+        users.saveAccount(teacherFactory.createAccount(
+                "t1", "kim@mail.com", hash
+        ));
 
-        teacherSession = new Session("t1", UserRole.TEACHER);
-        alexSession = new Session("s1", UserRole.STUDENT);
-        miaSession = new Session("s2", UserRole.STUDENT);
+        service = new GradeService(users, new InMemoryGradeRepository(), new InMemoryNotificationRepository());
+
+		AuthService auth = new AuthService(users, hasher);
+		teacherSession = auth.login("kim@mail.com", "secret123");
+		alexSession = auth.login("alex@mail.com", "secret123");
+        miaSession = auth.login("mia@mail.com", "secret123");
     }
 
     private Grade grade(String id, String studentId,
@@ -129,6 +144,24 @@ class AcademicModuleTest {
 
         assertEquals(93.0, result, 0.001);
     }
+
+	@Test
+	void testHighestGradeStrategy() {
+	    service.addGrade(teacherSession, grade("g1", "s1", GradeType.HOMEWORK, 70));
+	    service.addGrade(teacherSession, grade("g2", "s1", GradeType.EXAM, 95));
+	    service.addGrade(teacherSession, grade("g3", "s1", GradeType.QUIZ, 80));
+
+	    double result = service.calculateFinalGrade(
+	            alexSession, "s1", "MATH", new GradeCalculator(new HighestGradeStrategy()));
+
+	    assertEquals(95.0, result, 0.001);
+	}
+
+	@Test
+	void testHighestGradeStrategyRejectsEmptyList() {
+	    assertThrows(IllegalArgumentException.class,
+	            () -> new HighestGradeStrategy().calculate(List.of()));
+	}
 
     @Test
     void testStrategySwitching() {

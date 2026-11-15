@@ -5,6 +5,9 @@ import com.educore.academic.model.*;
 import com.educore.academic.repository.*;
 import com.educore.academic.service.GradeService;
 import com.educore.academic.strategy.*;
+import com.educore.user.auth.AuthService;
+import com.educore.user.auth.PasswordHasher;
+import com.educore.user.auth.Pbkdf2PasswordHasher;
 import com.educore.user.auth.Session;
 import com.educore.user.factory.StudentFactory;
 import com.educore.user.factory.TeacherFactory;
@@ -17,12 +20,23 @@ public class AcademicDemo {
     public static void main(String[] args) {
         UserRepository users = new InMemoryUserRepository();
 
-        users.saveUser(new StudentFactory().createStudent(
+		PasswordHasher hasher = new Pbkdf2PasswordHasher();
+		String hash = hasher.hash("secret123");
+		StudentFactory studentFactory = new StudentFactory();
+		TeacherFactory teacherFactory = new TeacherFactory();
+
+       	users.saveUser(studentFactory.createStudent(
                 "s1", "Alex", "SE-2526", "+77001234567"
         ));
+        users.saveAccount(studentFactory.createAccount(
+                "s1", "alex@mail.com", hash
+        ));
 
-        users.saveUser(new TeacherFactory().createTeacher(
+        users.saveUser(teacherFactory.createTeacher(
                 "t1", "Kim", TeacherSpecialization.MATH
+        ));
+        users.saveAccount(teacherFactory.createAccount(
+                "t1", "kim@mail.com", hash
         ));
 
         GradeService service = new GradeService(
@@ -31,8 +45,9 @@ public class AcademicDemo {
                 new InMemoryNotificationRepository()
         );
 
-        Session teacher = new Session("t1", UserRole.TEACHER);
-        Session student = new Session("s1", UserRole.STUDENT);
+        AuthService auth = new AuthService(users, hasher);
+		Session teacher = auth.login("kim@mail.com", "secret123");
+		Session student = auth.login("alex@mail.com", "secret123");
 
         System.out.println("=== EduCore Academic Demo ===");
 

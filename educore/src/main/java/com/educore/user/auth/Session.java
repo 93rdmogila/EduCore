@@ -5,14 +5,13 @@ import com.educore.user.util.Validator;
 
 import java.time.Instant;
 
-// Who is logged in right now. Other modules take userId and role from here.
 public class Session {
 	private final String userId;
 	private final UserRole role;
 	private final Instant loginTime;
 	private boolean active;
 
-	public Session(String userId, UserRole role){
+	Session(String userId, UserRole role){
 		Validator.requireNonBlank(userId, "User id");
 		if(role == null){
 			throw new IllegalArgumentException("User role cannot be null.");
