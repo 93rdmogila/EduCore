@@ -11,19 +11,19 @@ import com.educore.user.model.TeacherSpecialization;
 import com.educore.user.model.UserRole;
 import com.educore.user.repository.InMemoryUserRepository;
 import com.educore.user.repository.UserRepository;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
 
-public class AcademicModuleTest {
+class AcademicModuleTest {
     private GradeService service;
     private Session teacherSession;
     private Session alexSession;
     private Session miaSession;
 
-    @Before
-    public void setUp() {
+    @BeforeEach
+    void setUp() {
         UserRepository users = new InMemoryUserRepository();
 
         users.saveUser(new StudentFactory().createStudent(
@@ -55,7 +55,7 @@ public class AcademicModuleTest {
     }
 
     @Test
-    public void testGradeIsSaved() {
+    void testGradeIsSaved() {
         service.addGrade(teacherSession,
                 grade("g1", "s1", GradeType.HOMEWORK, 90));
 
@@ -65,7 +65,7 @@ public class AcademicModuleTest {
     }
 
     @Test
-    public void testObserverCreatesNotification() {
+    void testObserverCreatesNotification() {
         service.addGrade(teacherSession,
                 grade("g1", "s1", GradeType.EXAM, 95));
 
@@ -75,7 +75,7 @@ public class AcademicModuleTest {
     }
 
     @Test
-    public void testOtherStudentDoesNotReceiveNotification() {
+    void testOtherStudentDoesNotReceiveNotification() {
         service.addGrade(teacherSession,
                 grade("g1", "s1", GradeType.EXAM, 95));
 
@@ -83,7 +83,7 @@ public class AcademicModuleTest {
     }
 
     @Test
-    public void testMultipleNotifications() {
+    void testMultipleNotifications() {
         service.addGrade(teacherSession,
                 grade("g1", "s1", GradeType.HOMEWORK, 80));
         service.addGrade(teacherSession,
@@ -93,7 +93,7 @@ public class AcademicModuleTest {
     }
 
     @Test
-    public void testSimpleAverageStrategy() {
+    void testSimpleAverageStrategy() {
         service.addGrade(teacherSession,
                 grade("g1", "s1", GradeType.HOMEWORK, 80));
         service.addGrade(teacherSession,
@@ -112,7 +112,7 @@ public class AcademicModuleTest {
     }
 
     @Test
-    public void testWeightedAverageStrategy() {
+    void testWeightedAverageStrategy() {
         service.addGrade(teacherSession,
                 grade("g1", "s1", GradeType.HOMEWORK, 80));
         service.addGrade(teacherSession,
@@ -131,7 +131,7 @@ public class AcademicModuleTest {
     }
 
     @Test
-    public void testStrategySwitching() {
+    void testStrategySwitching() {
         service.addGrade(teacherSession,
                 grade("g1", "s1", GradeType.HOMEWORK, 80));
         service.addGrade(teacherSession,
@@ -154,41 +154,53 @@ public class AcademicModuleTest {
         assertEquals(94.2857, weighted, 0.001);
     }
 
-    @Test(expected = SecurityException.class)
-    public void testStudentCannotAddGrade() {
-        service.addGrade(alexSession,
-                grade("g1", "s1", GradeType.EXAM, 90));
+    @Test
+    void testStudentCannotAddGrade() {
+        assertThrows(SecurityException.class, () -> {
+            service.addGrade(alexSession,
+                    grade("g1", "s1", GradeType.EXAM, 90));
+        });
     }
 
-    @Test(expected = SecurityException.class)
-    public void testStudentCannotReadOtherGrades() {
-        service.getGrades(alexSession, "s2");
+    @Test
+    void testStudentCannotReadOtherGrades() {
+        assertThrows(SecurityException.class, () -> {
+            service.getGrades(alexSession, "s2");
+        });
     }
 
-    @Test(expected = IllegalArgumentException.class)
-    public void testInvalidTeacherSubject() {
-        service.addGrade(teacherSession,
-                new Grade("g1", "s1", "t1",
-                        "PHYSICS", GradeType.EXAM, 90));
+    @Test
+    void testInvalidTeacherSubject() {
+        assertThrows(IllegalArgumentException.class, () -> {
+            service.addGrade(teacherSession,
+                    new Grade("g1", "s1", "t1",
+                            "PHYSICS", GradeType.EXAM, 90));
+        });
     }
 
-    @Test(expected = IllegalArgumentException.class)
-    public void testDuplicateGradeId() {
-        service.addGrade(teacherSession,
-                grade("g1", "s1", GradeType.HOMEWORK, 80));
-        service.addGrade(teacherSession,
-                grade("g1", "s1", GradeType.EXAM, 90));
+    @Test
+    void testDuplicateGradeId() {
+        assertThrows(IllegalArgumentException.class, () -> {
+            service.addGrade(teacherSession,
+                    grade("g1", "s1", GradeType.HOMEWORK, 80));
+            service.addGrade(teacherSession,
+                    grade("g1", "s1", GradeType.EXAM, 90));
+        });
     }
 
-    @Test(expected = SecurityException.class)
-    public void testInactiveSession() {
-        alexSession.logout();
-        service.getNotifications(alexSession);
+    @Test
+    void testInactiveSession() {
+        assertThrows(SecurityException.class, () -> {
+            alexSession.logout();
+            service.getNotifications(alexSession);
+        });
     }
 
-    @Test(expected = IllegalArgumentException.class)
-    public void testUnknownStudent() {
-        service.addGrade(teacherSession,
-                grade("g1", "unknown", GradeType.EXAM, 90));
+    @Test
+    void testUnknownStudent() {
+        assertThrows(IllegalArgumentException.class, () -> {
+            service.addGrade(teacherSession,
+                    grade("g1", "unknown", GradeType.EXAM, 90));
+        });
     }
 }

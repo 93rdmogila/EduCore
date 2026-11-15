@@ -1,5 +1,7 @@
 package com.educore;
 
+import com.educore.user.auth.AuthService;
+import com.educore.user.auth.AuthenticationException;
 import com.educore.user.auth.PasswordHasher;
 import com.educore.user.auth.Pbkdf2PasswordHasher;
 import com.educore.user.auth.RegistrationService;
@@ -16,24 +18,22 @@ public class Main {
 
     public static void main(String[] args) {
 		UserRepository repo = new InMemoryUserRepository();
-		RegistrationService reg = new RegistrationService(repo, new Pbkdf2PasswordHasher());
-		Administrator admin = reg.registerFirstAdministrator("Root", "root@school.kz", "admin12345");
+		PasswordHasher hasher = new Pbkdf2PasswordHasher();
+		RegistrationService reg = new RegistrationService(repo, hasher);
+		AuthService auth = new AuthService(repo, hasher);
 
-		// 1. второй «первый» админ должен упасть
-		try { reg.registerFirstAdministrator("Evil", "evil@school.kz", "admin12345"); }
-		catch (IllegalStateException e) { System.out.println("ok: " + e.getMessage()); }
-		
-		// 2. настоящий админ создаёт второго
-		Session real = new Session(admin.getId(), UserRole.ADMINISTRATOR);
-		reg.registerAdministrator(real, "Second", "second@school.kz", "admin12345");
-		System.out.println("admins: " + repo.findAllUsers().size());   // нужно иметь repo в переменной
+		reg.registerStudent("Alex", "alex@mail.com", "secret123", "SE-2526", "+77001234567");
 
-		// 3. подделка и студент должны упасть
-		try { reg.registerAdministrator(new Session("fake-id", UserRole.ADMINISTRATOR),
-		        "X", "x@school.kz", "admin12345"); }
-		catch (SecurityException e) { System.out.println("ok: forged session rejected"); }
-		try { reg.registerAdministrator(new Session("anyone", UserRole.STUDENT),
-		        "X", "x@school.kz", "admin12345"); }
-		catch (SecurityException e) { System.out.println("ok: student rejected"); }
+		Session s = auth.login("ALEX@mail.com", "secret123");        // регистр не важен
+		System.out.println(s.getRole() + " " + s.isActive());        // STUDENT true
+
+		try { auth.login("alex@mail.com", "wrong-pass"); }
+		catch (AuthenticationException e) { System.out.println("1: " + e.getMessage()); }
+		try { auth.login("nobody@mail.com", "secret123"); }
+		catch (AuthenticationException e) { System.out.println("2: " + e.getMessage()); }
+		// 1 и 2 должны вывести один и тот же текст
+
+		auth.logout(s);
+		System.out.println(s.isActive());                            // false
 	}
 }
