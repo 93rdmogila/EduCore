@@ -41,4 +41,17 @@ public class StudentNotificationObserver implements GradeObserver {
 
         notificationRepository.save(notification);
     }
+
+	@Override 
+	public void onGradeUpdated(Grade oldGrade, Grade newGrade){
+		if(!studentId.equals(newGrade.getStudentId())){
+			return;
+		}
+		String message = "Grade changed in " + newGrade.getSubject() +
+		" (" + newGrade.getType() + "): " + oldGrade.getScore() + " -> " + newGrade.getScore();
+
+		Notification notification = new Notification(UUID.randomUUID().toString(), 
+		studentId, newGrade.getId(), message, System.currentTimeMillis());
+		notificationRepository.save(notification);
+	}
 }

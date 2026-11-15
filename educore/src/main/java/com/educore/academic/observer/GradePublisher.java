@@ -30,4 +30,12 @@ public class GradePublisher {
             observer.onGradeAdded(grade);
         }
     }
+	public void notifyGradeUpdated(Grade oldGrade, Grade newGrade){
+		if(oldGrade == null || newGrade == null){
+			throw new IllegalArgumentException("Grade cannot be null.");
+		}
+		for(GradeObserver observer : new ArrayList<>(observers)){
+			observer.onGradeUpdated(oldGrade, newGrade);
+		}
+	}
 }

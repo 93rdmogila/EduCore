@@ -236,4 +236,21 @@ class AcademicModuleTest {
                     grade("g1", "unknown", GradeType.EXAM, 90));
         });
     }
+
+	@Test
+	void testRepositoryUpdateReplacesGrade() {
+	    GradeRepository repo = new InMemoryGradeRepository();
+	    repo.save(grade("g1", "s1", GradeType.EXAM, 80));
+	    repo.update(grade("g1", "s1", GradeType.EXAM, 95));
+	
+	    assertEquals(95, repo.findById("g1").orElseThrow().getScore());
+	    assertEquals(1, repo.findByStudentId("s1").size());   // не добавилась вторая, а заменилась
+	}
+	
+	@Test
+	void testRepositoryUpdateUnknownGradeFails() {
+	    GradeRepository repo = new InMemoryGradeRepository();
+	    assertThrows(IllegalArgumentException.class,
+	            () -> repo.update(grade("nope", "s1", GradeType.EXAM, 90)));
+	}
 }
