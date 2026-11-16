@@ -1,0 +1,5 @@
+[33m9d0ab76[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m added README and Report, and add demo data to JSON storage
+[33mdac6fe1[m json parser and console interface
+[33mdce4d51[m Service, acces right and facade method
+[33m98557e7[m add notification (Observer) on a update grade activity
+[33m6b3912d[m Updated session and new strategy

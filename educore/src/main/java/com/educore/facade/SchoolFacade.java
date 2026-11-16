@@ -25,6 +25,7 @@ public class SchoolFacade {
     private final AccessGuard accessGuard;
 	private final RegistrationService registrationService;
 	private final AuthService authService;
+	//private final ClassService;
 
     public SchoolFacade(
             UserRepository userRepository,
