@@ -5,7 +5,6 @@ import com.educore.user.util.Validator;
 import java.util.ArrayList;
 import java.util.List;
 
-// A school class: one name, at most one teacher, a list of student ids. Immutable.
 public final class SchoolClass {
 	private final String id;
 	private final String name;
