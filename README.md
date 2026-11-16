@@ -90,14 +90,14 @@ src/main/java/com/educore/
 
 ## Data storage
 
-At runtime, JSON files are created in the `data/` directory relative to the working directory:
+At runtime, JSON files are created in the `educore/data` directory relative to the working directory:
 
 - `users.json`
 - `accounts.json`
 - `grades.json`
 - `notifications.json`
 
-The `data/` directory is created automatically on first launch. `.gitignore` excludes `data/` and `target/`, so runtime data and build output are not committed.
+The `educore/data` directory is created automatically on first launch. `.gitignore` excludes `educore/data` and `target/`, so runtime data and build output are not committed.
 
 ## Known limitations and future improvements
 
