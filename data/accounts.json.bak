@@ -1,0 +1,146 @@
+[
+  {
+    "userId": "1713cca0-8bb9-58d8-9df0-b1a28c7b9648",
+    "email": "aigerim.nurlanova@educore.kz",
+    "passwordHash": "pbkdf2$120000$7YAwIF6cN76mBhrrvXC/SA==$s9ZdPjdw1Xs3gEO2mMg4R/oaKZJwArgggWTGTHr/0Go=",
+    "role": "TEACHER"
+  },
+  {
+    "userId": "7c889ff1-7ca6-540e-9693-febb2d7d907d",
+    "email": "marat.ospanov@educore.kz",
+    "passwordHash": "pbkdf2$120000$yp3+coyIq3dgcFS0tky58w==$9wv6RbCQbutnRvxpdT7KE2PV/hjeB/QVi3LwJnl4e6c=",
+    "role": "TEACHER"
+  },
+  {
+    "userId": "d97e1435-9edb-5e56-97f1-393bde3641f5",
+    "email": "daniyar.sadykov@educore.kz",
+    "passwordHash": "pbkdf2$120000$8leb84LDu7bfHZJzEKXGSQ==$RTp8bg14O9afWztaiVlqc3ppVDbgYPpteTbJPP9gaIk=",
+    "role": "TEACHER"
+  },
+  {
+    "userId": "d5b01bd4-6b6d-501f-a620-9260eb68ed34",
+    "email": "madina.tulegenova@educore.kz",
+    "passwordHash": "pbkdf2$120000$J/lJ7UJkwxOc32ECnVM3LA==$GI7zdPGuwMEWoS0BMuY6Nd7ohbRHgdpjYCoaBzjTY40=",
+    "role": "TEACHER"
+  },
+  {
+    "userId": "54877614-5a5c-5d58-9251-11908a45ab79",
+    "email": "bekarys.bekzhanov@educore.kz",
+    "passwordHash": "pbkdf2$120000$icZ/BiuBzkoYdf2TbAefXg==$p3blzZQeWHbjc8pQTZvkROqBRDAtNfMisHYPK9IFyaY=",
+    "role": "TEACHER"
+  },
+  {
+    "userId": "c05ca6f5-6e7d-55eb-b8b3-58be12af6411",
+    "email": "gulnar.tursunova@educore.kz",
+    "passwordHash": "pbkdf2$120000$ZmSJhRX8mVHohs7h/TtZEA==$EMWXFRS6tTgx+Vjgr9iTMeFQYUATQ65SMzNlyF3kc/0=",
+    "role": "TEACHER"
+  },
+  {
+    "userId": "154c9d96-1479-5881-85c1-ed7b44a1e474",
+    "email": "alikhan.seitkali@student.educore.kz",
+    "passwordHash": "pbkdf2$120000$f6FyaaKE5DU0XgfXSzhuPw==$9Mj4XxYpDVwCiyzQOebxYqOhb8+3FyrhF1Lh18O9NJc=",
+    "role": "STUDENT"
+  },
+  {
+    "userId": "f1cdb972-3fd6-5c98-a99f-c3755beb1527",
+    "email": "dana.karimova@student.educore.kz",
+    "passwordHash": "pbkdf2$120000$gu05XEP89dziUsT6fnW7Vw==$5Y+vD/dYNU7PFjhJBe2OPT1p7UwADuQxm1KbTE6v9Dk=",
+    "role": "STUDENT"
+  },
+  {
+    "userId": "aabc8e01-0159-52af-baac-4626241aee95",
+    "email": "erlan.smagulov@student.educore.kz",
+    "passwordHash": "pbkdf2$120000$jOc3ylXpbu32+RxdwXRGNg==$SzJpd9ejHdntVzZtG4Fg/QSdxFlJSk3YfdFMKv4OxCg=",
+    "role": "STUDENT"
+  },
+  {
+    "userId": "ed1aae80-772a-524d-954f-9c7c9130c8ad",
+    "email": "farida.zhumabekova@student.educore.kz",
+    "passwordHash": "pbkdf2$120000$BCq2RNul1T8yPAJ/zMA3nQ==$YDDkXADIueZJJZttOjEHfhqZ9CscL4D3eZ/rSYYXKVY=",
+    "role": "STUDENT"
+  },
+  {
+    "userId": "c5ef7ba7-7af8-564d-b732-2cfef0630f8b",
+    "email": "timur.abenov@student.educore.kz",
+    "passwordHash": "pbkdf2$120000$R/hmo7kmph9e5ENCY8GLTw==$NtGINhmJ17cNh8NpOShq2doI0EuqVgwkg5c6Uo9aC4U=",
+    "role": "STUDENT"
+  },
+  {
+    "userId": "c145ca6a-a293-5582-a974-066f3e45d7ba",
+    "email": "zarina.kassymova@student.educore.kz",
+    "passwordHash": "pbkdf2$120000$cV7JlBWn7W5Db/AXsc7AJw==$LQ2a5ZqOMf8ff9UtRENTpv4SzIPmZE/srLYo5PSLT74=",
+    "role": "STUDENT"
+  },
+  {
+    "userId": "767d43fd-c961-51f3-a347-6c8343749191",
+    "email": "bekzat.aliyev@student.educore.kz",
+    "passwordHash": "pbkdf2$120000$kA6nC+B1wpjuPoc5HaFjIA==$q1UCH1LZU5sbtcfEJr1M9qfck7oCBclLyEklPaB6RrE=",
+    "role": "STUDENT"
+  },
+  {
+    "userId": "f41a2ad4-472e-59e8-b3ab-4952c310932e",
+    "email": "aruzhan.saparova@student.educore.kz",
+    "passwordHash": "pbkdf2$120000$D1Ieus1mdUBNM1PvhTS2VA==$Zoa7aT+7U35u7GWIgPFfDcV1P3tS7gJESdR+Asu3fyk=",
+    "role": "STUDENT"
+  },
+  {
+    "userId": "f6ae794a-8fff-5868-a91d-ab6a23fd82c0",
+    "email": "nurlan.dauletov@student.educore.kz",
+    "passwordHash": "pbkdf2$120000$T7/s5xUVkkk2AXpEfiUXfg==$6WLq9RLVbwWF/zdVJlpHXOuih8z82lj1QNjvgM1/gmI=",
+    "role": "STUDENT"
+  },
+  {
+    "userId": "8eb2edcc-078a-559a-879f-dc931ae20025",
+    "email": "aiym.baimukhanova@student.educore.kz",
+    "passwordHash": "pbkdf2$120000$TFEVU8G9rNYyiGbAfHnsdA==$2A/yoVLnHamZ/bW1tSVAfAUFkm3jSTez0rYicPxgc5I=",
+    "role": "STUDENT"
+  },
+  {
+    "userId": "6b4981db-2b5c-594e-a5bc-eb1f9b12b4e4",
+    "email": "yerbol.kenzhebekov@student.educore.kz",
+    "passwordHash": "pbkdf2$120000$M5Ge/1PNgq13l4bnEfO1bg==$TpiFedrfYkaNBw1rWvY931TaiXWbXuzURdgUWHkNuNw=",
+    "role": "STUDENT"
+  },
+  {
+    "userId": "5cd488a6-428d-5264-b927-72ee4f91fe4f",
+    "email": "laura.mukhametzhanova@student.educore.kz",
+    "passwordHash": "pbkdf2$120000$y7Lp5jb0sDCgf3dAvF5HEQ==$5eEEN/XQenWPV/qybgnnecO3p0pPwuB+pxYBfS0YcUY=",
+    "role": "STUDENT"
+  },
+  {
+    "userId": "a032fa97-ba6d-526b-9e30-69ec96b1f807",
+    "email": "dias.orazbayev@student.educore.kz",
+    "passwordHash": "pbkdf2$120000$UtPmK6CJM0V5YJD0jyjasQ==$LiaLjgYHeHe0YlE3vFDinvzOyi0SNnFBHbs05RDIF2Q=",
+    "role": "STUDENT"
+  },
+  {
+    "userId": "68b7e18c-26a3-55ef-a45b-36402f6052c1",
+    "email": "kamila.rakhimova@student.educore.kz",
+    "passwordHash": "pbkdf2$120000$mTwG22AmYRYnuTqgye3HWQ==$EWO9RQ1U8VZWDOt5QjsCYrACMtL0STeQkDwd2wBr+4c=",
+    "role": "STUDENT"
+  },
+  {
+    "userId": "f43e3d35-8055-517d-9f11-891628259eaf",
+    "email": "sanzhar.bolatov@student.educore.kz",
+    "passwordHash": "pbkdf2$120000$Enc1UI77v6Ou7x+sxfy+uw==$o7Y81+fN3hmhjTpGFX9b6/bcGapqlnIWi5umGGExBao=",
+    "role": "STUDENT"
+  },
+  {
+    "userId": "00b815e8-f795-581d-a291-e335b93523b1",
+    "email": "aisulu.tokhtarova@student.educore.kz",
+    "passwordHash": "pbkdf2$120000$pH9ETNjhSTvT+3J1iK806Q==$4XvShx62/V9vawcqnmb0AeEiL10HyTLobTj/R74uqy4=",
+    "role": "STUDENT"
+  },
+  {
+    "userId": "3b166113-d68a-5678-820d-19741a314927",
+    "email": "alua.nurgaliyeva@student.educore.kz",
+    "passwordHash": "pbkdf2$120000$X12LMooPec0iePHSANAh3Q==$EuKD87IQibRH9Fli1hKPP28qEmZ6vA5dkQbFqW16ta8=",
+    "role": "STUDENT"
+  },
+  {
+    "userId": "5a934ba6-f68c-51a6-a7e7-cf918384979b",
+    "email": "ruslan.ibragimov@student.educore.kz",
+    "passwordHash": "pbkdf2$120000$kFiPdDbJeFGK8Ym5fTuJ8g==$1kKUEScP//V5FmK9Rvts0R36W+aqbk8jDHeG6d28irA=",
+    "role": "STUDENT"
+  }
+]

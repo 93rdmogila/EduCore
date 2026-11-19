@@ -1,0 +1,236 @@
+[
+  {
+    "id": "c22bc266-2afd-5b48-a819-4379252d2750",
+    "name": "10A-MATH",
+    "teacherId": "1713cca0-8bb9-58d8-9df0-b1a28c7b9648",
+    "studentIds": [
+      "154c9d96-1479-5881-85c1-ed7b44a1e474",
+      "f1cdb972-3fd6-5c98-a99f-c3755beb1527",
+      "aabc8e01-0159-52af-baac-4626241aee95",
+      "ed1aae80-772a-524d-954f-9c7c9130c8ad",
+      "c5ef7ba7-7af8-564d-b732-2cfef0630f8b",
+      "c145ca6a-a293-5582-a974-066f3e45d7ba"
+    ]
+  },
+  {
+    "id": "99404276-1e42-5813-8b44-e1fadd5805ba",
+    "name": "10A-PROGRAMMING",
+    "teacherId": "7c889ff1-7ca6-540e-9693-febb2d7d907d",
+    "studentIds": [
+      "154c9d96-1479-5881-85c1-ed7b44a1e474",
+      "f1cdb972-3fd6-5c98-a99f-c3755beb1527",
+      "aabc8e01-0159-52af-baac-4626241aee95",
+      "ed1aae80-772a-524d-954f-9c7c9130c8ad",
+      "c5ef7ba7-7af8-564d-b732-2cfef0630f8b",
+      "c145ca6a-a293-5582-a974-066f3e45d7ba"
+    ]
+  },
+  {
+    "id": "2796e386-b1a7-5aec-8e41-28df03aa665c",
+    "name": "10A-PHYSICS",
+    "teacherId": "d97e1435-9edb-5e56-97f1-393bde3641f5",
+    "studentIds": [
+      "154c9d96-1479-5881-85c1-ed7b44a1e474",
+      "f1cdb972-3fd6-5c98-a99f-c3755beb1527",
+      "aabc8e01-0159-52af-baac-4626241aee95",
+      "ed1aae80-772a-524d-954f-9c7c9130c8ad",
+      "c5ef7ba7-7af8-564d-b732-2cfef0630f8b",
+      "c145ca6a-a293-5582-a974-066f3e45d7ba"
+    ]
+  },
+  {
+    "id": "ead577ab-c183-538f-8b32-e7b4d5f0a0ed",
+    "name": "10A-CHEMISTRY",
+    "teacherId": "d5b01bd4-6b6d-501f-a620-9260eb68ed34",
+    "studentIds": [
+      "154c9d96-1479-5881-85c1-ed7b44a1e474",
+      "f1cdb972-3fd6-5c98-a99f-c3755beb1527",
+      "aabc8e01-0159-52af-baac-4626241aee95",
+      "ed1aae80-772a-524d-954f-9c7c9130c8ad",
+      "c5ef7ba7-7af8-564d-b732-2cfef0630f8b",
+      "c145ca6a-a293-5582-a974-066f3e45d7ba"
+    ]
+  },
+  {
+    "id": "c98f05d2-168f-5a48-8463-ac58051779fc",
+    "name": "10A-BIOLOGY",
+    "teacherId": "54877614-5a5c-5d58-9251-11908a45ab79",
+    "studentIds": [
+      "154c9d96-1479-5881-85c1-ed7b44a1e474",
+      "f1cdb972-3fd6-5c98-a99f-c3755beb1527",
+      "aabc8e01-0159-52af-baac-4626241aee95",
+      "ed1aae80-772a-524d-954f-9c7c9130c8ad",
+      "c5ef7ba7-7af8-564d-b732-2cfef0630f8b",
+      "c145ca6a-a293-5582-a974-066f3e45d7ba"
+    ]
+  },
+  {
+    "id": "26d67245-4f71-5826-8ed1-a1f26b3a8c6c",
+    "name": "10A-PE",
+    "teacherId": "c05ca6f5-6e7d-55eb-b8b3-58be12af6411",
+    "studentIds": [
+      "154c9d96-1479-5881-85c1-ed7b44a1e474",
+      "f1cdb972-3fd6-5c98-a99f-c3755beb1527",
+      "aabc8e01-0159-52af-baac-4626241aee95",
+      "ed1aae80-772a-524d-954f-9c7c9130c8ad",
+      "c5ef7ba7-7af8-564d-b732-2cfef0630f8b",
+      "c145ca6a-a293-5582-a974-066f3e45d7ba"
+    ]
+  },
+  {
+    "id": "af71d693-2015-55c1-b16d-b1e3a0ab60f0",
+    "name": "10B-MATH",
+    "teacherId": "1713cca0-8bb9-58d8-9df0-b1a28c7b9648",
+    "studentIds": [
+      "767d43fd-c961-51f3-a347-6c8343749191",
+      "f41a2ad4-472e-59e8-b3ab-4952c310932e",
+      "f6ae794a-8fff-5868-a91d-ab6a23fd82c0",
+      "8eb2edcc-078a-559a-879f-dc931ae20025",
+      "6b4981db-2b5c-594e-a5bc-eb1f9b12b4e4",
+      "5cd488a6-428d-5264-b927-72ee4f91fe4f"
+    ]
+  },
+  {
+    "id": "ac105364-1e27-5e91-87fd-ecfca08567fe",
+    "name": "10B-PROGRAMMING",
+    "teacherId": "7c889ff1-7ca6-540e-9693-febb2d7d907d",
+    "studentIds": [
+      "767d43fd-c961-51f3-a347-6c8343749191",
+      "f41a2ad4-472e-59e8-b3ab-4952c310932e",
+      "f6ae794a-8fff-5868-a91d-ab6a23fd82c0",
+      "8eb2edcc-078a-559a-879f-dc931ae20025",
+      "6b4981db-2b5c-594e-a5bc-eb1f9b12b4e4",
+      "5cd488a6-428d-5264-b927-72ee4f91fe4f"
+    ]
+  },
+  {
+    "id": "1d4bec79-e092-5d20-9f60-06ea65fb14f9",
+    "name": "10B-PHYSICS",
+    "teacherId": "d97e1435-9edb-5e56-97f1-393bde3641f5",
+    "studentIds": [
+      "767d43fd-c961-51f3-a347-6c8343749191",
+      "f41a2ad4-472e-59e8-b3ab-4952c310932e",
+      "f6ae794a-8fff-5868-a91d-ab6a23fd82c0",
+      "8eb2edcc-078a-559a-879f-dc931ae20025",
+      "6b4981db-2b5c-594e-a5bc-eb1f9b12b4e4",
+      "5cd488a6-428d-5264-b927-72ee4f91fe4f"
+    ]
+  },
+  {
+    "id": "ac993594-3a85-5698-9537-729f899cee33",
+    "name": "10B-CHEMISTRY",
+    "teacherId": "d5b01bd4-6b6d-501f-a620-9260eb68ed34",
+    "studentIds": [
+      "767d43fd-c961-51f3-a347-6c8343749191",
+      "f41a2ad4-472e-59e8-b3ab-4952c310932e",
+      "f6ae794a-8fff-5868-a91d-ab6a23fd82c0",
+      "8eb2edcc-078a-559a-879f-dc931ae20025",
+      "6b4981db-2b5c-594e-a5bc-eb1f9b12b4e4",
+      "5cd488a6-428d-5264-b927-72ee4f91fe4f"
+    ]
+  },
+  {
+    "id": "b6cd6d06-baa8-52ed-a19f-e28cebe39165",
+    "name": "10B-BIOLOGY",
+    "teacherId": "54877614-5a5c-5d58-9251-11908a45ab79",
+    "studentIds": [
+      "767d43fd-c961-51f3-a347-6c8343749191",
+      "f41a2ad4-472e-59e8-b3ab-4952c310932e",
+      "f6ae794a-8fff-5868-a91d-ab6a23fd82c0",
+      "8eb2edcc-078a-559a-879f-dc931ae20025",
+      "6b4981db-2b5c-594e-a5bc-eb1f9b12b4e4",
+      "5cd488a6-428d-5264-b927-72ee4f91fe4f"
+    ]
+  },
+  {
+    "id": "446be5db-587e-58da-8fcd-6522b921c51c",
+    "name": "10B-PE",
+    "teacherId": "c05ca6f5-6e7d-55eb-b8b3-58be12af6411",
+    "studentIds": [
+      "767d43fd-c961-51f3-a347-6c8343749191",
+      "f41a2ad4-472e-59e8-b3ab-4952c310932e",
+      "f6ae794a-8fff-5868-a91d-ab6a23fd82c0",
+      "8eb2edcc-078a-559a-879f-dc931ae20025",
+      "6b4981db-2b5c-594e-a5bc-eb1f9b12b4e4",
+      "5cd488a6-428d-5264-b927-72ee4f91fe4f"
+    ]
+  },
+  {
+    "id": "b0609954-262c-5a54-99fd-1d80dcb20b4e",
+    "name": "11A-MATH",
+    "teacherId": "1713cca0-8bb9-58d8-9df0-b1a28c7b9648",
+    "studentIds": [
+      "a032fa97-ba6d-526b-9e30-69ec96b1f807",
+      "68b7e18c-26a3-55ef-a45b-36402f6052c1",
+      "f43e3d35-8055-517d-9f11-891628259eaf",
+      "00b815e8-f795-581d-a291-e335b93523b1",
+      "3b166113-d68a-5678-820d-19741a314927",
+      "5a934ba6-f68c-51a6-a7e7-cf918384979b"
+    ]
+  },
+  {
+    "id": "f22214e1-ee5e-52f4-89f4-7c0d27938980",
+    "name": "11A-PROGRAMMING",
+    "teacherId": "7c889ff1-7ca6-540e-9693-febb2d7d907d",
+    "studentIds": [
+      "a032fa97-ba6d-526b-9e30-69ec96b1f807",
+      "68b7e18c-26a3-55ef-a45b-36402f6052c1",
+      "f43e3d35-8055-517d-9f11-891628259eaf",
+      "00b815e8-f795-581d-a291-e335b93523b1",
+      "3b166113-d68a-5678-820d-19741a314927",
+      "5a934ba6-f68c-51a6-a7e7-cf918384979b"
+    ]
+  },
+  {
+    "id": "b4f381e1-d258-5efa-ab06-ff778e750c26",
+    "name": "11A-PHYSICS",
+    "teacherId": "d97e1435-9edb-5e56-97f1-393bde3641f5",
+    "studentIds": [
+      "a032fa97-ba6d-526b-9e30-69ec96b1f807",
+      "68b7e18c-26a3-55ef-a45b-36402f6052c1",
+      "f43e3d35-8055-517d-9f11-891628259eaf",
+      "00b815e8-f795-581d-a291-e335b93523b1",
+      "3b166113-d68a-5678-820d-19741a314927",
+      "5a934ba6-f68c-51a6-a7e7-cf918384979b"
+    ]
+  },
+  {
+    "id": "e9a4d1db-a5e9-53b7-a392-f3e579b3ab58",
+    "name": "11A-CHEMISTRY",
+    "teacherId": "d5b01bd4-6b6d-501f-a620-9260eb68ed34",
+    "studentIds": [
+      "a032fa97-ba6d-526b-9e30-69ec96b1f807",
+      "68b7e18c-26a3-55ef-a45b-36402f6052c1",
+      "f43e3d35-8055-517d-9f11-891628259eaf",
+      "00b815e8-f795-581d-a291-e335b93523b1",
+      "3b166113-d68a-5678-820d-19741a314927",
+      "5a934ba6-f68c-51a6-a7e7-cf918384979b"
+    ]
+  },
+  {
+    "id": "fa9759ea-f798-5d80-a966-035d46a715fc",
+    "name": "11A-BIOLOGY",
+    "teacherId": "54877614-5a5c-5d58-9251-11908a45ab79",
+    "studentIds": [
+      "a032fa97-ba6d-526b-9e30-69ec96b1f807",
+      "68b7e18c-26a3-55ef-a45b-36402f6052c1",
+      "f43e3d35-8055-517d-9f11-891628259eaf",
+      "00b815e8-f795-581d-a291-e335b93523b1",
+      "3b166113-d68a-5678-820d-19741a314927",
+      "5a934ba6-f68c-51a6-a7e7-cf918384979b"
+    ]
+  },
+  {
+    "id": "a6febe59-5415-5b4f-a1e5-edb63caf9b87",
+    "name": "11A-PE",
+    "teacherId": "c05ca6f5-6e7d-55eb-b8b3-58be12af6411",
+    "studentIds": [
+      "a032fa97-ba6d-526b-9e30-69ec96b1f807",
+      "68b7e18c-26a3-55ef-a45b-36402f6052c1",
+      "f43e3d35-8055-517d-9f11-891628259eaf",
+      "00b815e8-f795-581d-a291-e335b93523b1",
+      "3b166113-d68a-5678-820d-19741a314927",
+      "5a934ba6-f68c-51a6-a7e7-cf918384979b"
+    ]
+  }
+]
