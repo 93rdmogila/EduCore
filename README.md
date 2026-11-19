@@ -1,6 +1,6 @@
 # EduCore — School Management System
 
-EduCore is a console-based school management application written in Java, developed as a team project for the Software Design Patterns course (group SE-2526, Astana IT University). It supports student, teacher, and administrator accounts; grade management; notifications when grades are added or updated; and calculation of final grades using interchangeable strategies.
+EduCore is a console-based school management application written in Java, developed as a team project for the Software Design Patterns course. It supports student, teacher, and administrator accounts; grade management; notifications when grades are added or updated; and calculation of final grades using interchangeable strategies.
 
 Repository: https://github.com/93rdmogila/EduCore
 
@@ -98,13 +98,6 @@ At runtime, JSON files are created in the `educore/data` directory relative to t
 - `notifications.json`
 
 The `educore/data` directory is created automatically on first launch. `.gitignore` excludes `educore/data` and `target/`, so runtime data and build output are not committed.
-
-## Known limitations and future improvements
-
-- Password entry is currently visible in the console.
-- The system does not yet assign students to specific teacher-managed classes; consequently, the current teacher workflow does not enforce class membership when selecting a student.
-- The first person who initializes an empty data store can create the first administrator account.
-- Future work: class management (`SchoolClass`, teacher/student assignment, `classes.json`), hidden password input, login-attempt lockout, a maintained JSON library such as Jackson, and permission management from the menu.
 
 ## Team contribution
 
